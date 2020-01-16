@@ -1,0 +1,4224 @@
+local PJJT = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local FrameLabel = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local All = Instance.new("TextButton")
+local AllGui = Instance.new("Frame")
+local AllGuiLabel = Instance.new("TextLabel")
+local AllScroll = Instance.new("ScrollingFrame")
+local StabAll = Instance.new("TextButton")
+local TeleportAll = Instance.new("TextButton")
+local SlowAll = Instance.new("TextButton")
+local FreezeAll = Instance.new("TextButton")
+local BurnAll = Instance.new("TextButton")
+local AnnoyAll = Instance.new("TextButton")
+local AnnoyAllV2 = Instance.new("TextButton")
+local GodAll = Instance.new("TextButton")
+local FlingAll = Instance.new("TextButton")
+local FreezeFlingAll = Instance.new("TextButton")
+local PrisonAll = Instance.new("TextButton")
+local FloatAll = Instance.new("TextButton")
+local BlindAll = Instance.new("TextButton")
+local TripAll = Instance.new("TextButton")
+local CloseAll = Instance.new("TextButton")
+local Name = Instance.new("TextBox")
+local Self = Instance.new("TextButton")
+local SelfGui = Instance.new("Frame")
+local SelfGuiLabel = Instance.new("TextLabel")
+local SelfScroll = Instance.new("ScrollingFrame")
+local CrashServer = Instance.new("TextButton")
+local StandStorage = Instance.new("TextButton")
+local OpStand = Instance.new("TextButton")
+local GodSelf = Instance.new("TextButton")
+local CustomStand = Instance.new("TextButton")
+local TimestopMovement = Instance.new("TextButton")
+local Killaura = Instance.new("TextButton")
+local Invisible = Instance.new("TextButton")
+local CloneSelf = Instance.new("TextButton")
+local CloseSelf = Instance.new("TextButton")
+local Morphs = Instance.new("TextButton")
+local Creeper = Instance.new("TextButton")
+local NaziSalute = Instance.new("TextButton")
+local Snake = Instance.new("TextButton")
+local Swastika = Instance.new("TextButton")
+local Block = Instance.new("TextButton")
+local Cripple = Instance.new("TextButton")
+local Morphs = Instance.new("TextButton")
+local MorphsGuiLabel = Instance.new("TextLabel")
+local MorphsGui = Instance.new("Frame")
+local CloseMorphs = Instance.new("TextButton")
+local Target = Instance.new("TextButton")
+local TargetGui = Instance.new("Frame")
+local TargetGuiLabel = Instance.new("TextLabel")
+local TargetScroll = Instance.new("ScrollingFrame")
+local YourName = Instance.new("TextBox")
+local TargetName = Instance.new("TextBox")
+local FrameTarget = Instance.new("TextButton")
+local StabTarget = Instance.new("TextButton")
+local GodTarget = Instance.new("TextButton")
+local AnnoyTarget = Instance.new("TextButton")
+local AnnoyTargetV2 = Instance.new("TextButton")
+local SlowTarget = Instance.new("TextButton")
+local BurnTarget = Instance.new("TextButton")
+local TeleportTarget = Instance.new("TextButton")
+local FreezeTarget = Instance.new("TextButton")
+local FlingTarget = Instance.new("TextButton")
+local FreezeFling = Instance.new("TextButton")
+local PrisonTarget = Instance.new("TextButton")
+local TripTarget = Instance.new("TextButton")
+local BlindTarget = Instance.new("TextButton")
+local FloatTarget = Instance.new("TextButton")
+local CloseTarget = Instance.new("TextButton")
+local Shop = Instance.new("TextButton")
+local ShopGui = Instance.new("Frame")
+local ShopGuiLabel = Instance.new("TextLabel")
+local StandArrow = Instance.new("TextButton")
+local Rokakaka = Instance.new("TextButton")
+local VampMask = Instance.new("TextButton")
+local CloseShop = Instance.new("TextButton")
+local CCTP = Instance.new("TextButton")
+local Extras = Instance.new("TextButton")
+local ExtrasGui = Instance.new("Frame")
+local ExtrasGuiLabel = Instance.new("TextLabel")
+local ExtrasScroll = Instance.new("ScrollingFrame")
+local AnubisExtras = Instance.new("TextButton")
+local AnubisGodmode = Instance.new("TextButton")
+local InstantPossesion = Instance.new("TextButton")
+local MoodyBluesExtras = Instance.new("TextButton")
+local CloneAll = Instance.new("TextButton")
+local MadeInHeavenExtras = Instance.new("TextButton")
+local TimeAcel = Instance.new("TextButton")
+local UniReset = Instance.new("TextButton")
+local TheHandExtras = Instance.new("TextButton")
+local PullOthers = Instance.new("TextButton")
+local PullSelf = Instance.new("TextButton")
+local TheWorldExtras = Instance.new("TextButton")
+local TimeStop = Instance.new("TextButton")
+local MrPresidentExtras = Instance.new("TextButton")
+local ForceRoomAll = Instance.new("TextButton")
+local CloseExtras = Instance.new("TextButton")
+local Info = Instance.new("TextButton")
+local FarmGui = Instance.new("Frame")
+local FarmGuiLabel = Instance.new("TextLabel")
+local FarmComingSoon = Instance.new("TextLabel")
+local CloseFarm = Instance.new("TextButton")
+local Damage = Instance.new("TextBox")
+local ChooseStand = Instance.new("TextButton")
+local ChooseStandGui = Instance.new("Frame")
+local ChooseStandGuiLabel = Instance.new("TextLabel")
+local Scroll = Instance.new("ScrollingFrame")
+local StandChanger = Instance.new("TextButton")
+local SMP = Instance.new("TextButton")
+local BallBreaker = Instance.new("TextButton")
+local WeatherReport = Instance.new("TextButton")
+local WhiteWedding = Instance.new("TextButton")
+local SSB = Instance.new("TextButton")
+local MIH = Instance.new("TextButton")
+local Osiris = Instance.new("TextButton")
+local Sod = Instance.new("TextButton")
+local Vampire = Instance.new("TextButton")
+local StoneFree = Instance.new("TextButton")
+local MoodyBlues = Instance.new("TextButton")
+local MrPresident = Instance.new("TextButton")
+local SoftAndWet = Instance.new("TextButton")
+local PillarMan = Instance.new("TextButton")
+local HighwayStar = Instance.new("TextButton")
+local CloseChooseStand = Instance.new("TextButton")
+local OpenGuiFrame = Instance.new("Frame")
+local OpenGui = Instance.new("TextButton")
+local CloseGuiFrame = Instance.new("Frame")
+local CloseGui = Instance.new("TextButton")
+local CloseEverythingFrame = Instance.new("Frame")
+local CloseEverything = Instance.new("TextButton")
+local Info = Instance.new("TextButton")
+local InfoGui = Instance.new("TextLabel")
+local TargetGuiInfo = Instance.new("TextLabel")
+local ChooseStandInfo = Instance.new("TextLabel")
+local CreeperInfo = Instance.new("TextLabel")
+local GodmodeInfo = Instance.new("TextLabel")
+local ChooseStandInfo2 = Instance.new("TextLabel")
+local CustomStandInfo = Instance.new("TextLabel")
+local InvisibleInfo = Instance.new("TextLabel")
+local CloseInfo = Instance.new("TextButton")
+local CrashServerInfo = Instance.new("TextLabel")
+local StealMoneyInfo = Instance.new("TextLabel")
+local DmInfo = Instance.new("TextLabel")
+local ExtraInfo = Instance.new("TextLabel")
+
+
+_G.Table = {}
+
+-- Properties
+
+PJJT.Name = "PJJT"
+PJJT.Parent = game.CoreGui
+PJJT.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = PJJT
+Frame.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame.BorderColor3 = Color3.new(1, 1, 1)
+Frame.BorderSizePixel = 2
+Frame.Position = UDim2.new(0.02 , 0, 0.6, 0)
+Frame.Size = UDim2.new(0, 266, 0, 257)
+Frame.Visible = false
+Frame.Active = true
+Frame.Draggable = true
+
+FrameLabel.Parent = Frame
+FrameLabel.Position = UDim2.new(0, 133, 0, 7)
+FrameLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+FrameLabel.BackgroundTransparency = 1
+FrameLabel.Font = Enum.Font.SourceSans
+FrameLabel.Text = "FairyGui"
+FrameLabel.TextColor3 = Color3.new(0, 0, 0)
+FrameLabel.TextSize = 14
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0, 0, 0, 15)
+ImageLabel.Size = UDim2.new(0, 266, 0, 242)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=1567128155"
+
+All.Name = "All"
+All.Parent = Frame
+All.BackgroundColor3 = Color3.new(0, 0, 0)
+All.Position = UDim2.new(0, 1, 0, 16)
+All.Size = UDim2.new(0, 67, 0, 60.5)
+All.Font = Enum.Font.SourceSans
+All.Text = "All"
+All.TextColor3 = Color3.new(1, 1, 1)
+All.TextSize = 14
+
+AllGui.Name = "AllGui"
+AllGui.Parent = All
+AllGui.BackgroundColor3 = Color3.new(255, 255, 255)
+AllGui.BorderColor3 = Color3.new(0, 1, 0.2)
+AllGui.BorderSizePixel = 2
+AllGui.Position = UDim2.new(4.4, 0, 0, -16)
+AllGui.Size = UDim2.new(0, 130, 0, 257)
+AllGui.Visible = false
+AllGui.Active = true
+AllGui.Draggable = true
+
+AllGuiLabel.Parent = AllGui
+AllGuiLabel.Position = UDim2.new(0, 65, 0, 7)
+AllGuiLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+AllGuiLabel.BackgroundTransparency = 1
+AllGuiLabel.Font = Enum.Font.SourceSans
+AllGuiLabel.Text = "AllGui"
+AllGuiLabel.TextColor3 = Color3.new(0, 0, 0)
+AllGuiLabel.TextSize = 14
+
+AllScroll.Name = "AllScroll"
+AllScroll.Parent = AllGui
+AllScroll.BackgroundColor3 = Color3.new(0, 0, 0)
+AllScroll.BackgroundTransparency = 0
+AllScroll.Position = UDim2.new(0, 1, 0, 15)
+AllScroll.Size = UDim2.new(0, 128, 0, 241)
+AllScroll.CanvasSize = UDim2.new(0, 128, 0, 423.75)
+AllScroll.ScrollBarThickness = 2
+AllScroll.Active = true
+
+StabAll.Name = "StabAll"
+StabAll.Parent = AllScroll
+StabAll.BackgroundColor3 = Color3.new(0, 0, 0)
+StabAll.Position = UDim2.new(0, 0, 0, 0)
+StabAll.Size = UDim2.new(0, 128, 0, 30.25)
+StabAll.Font = Enum.Font.SourceSans
+StabAll.Text = "StabAll"
+StabAll.TextColor3 = Color3.new(1, 1, 1)
+StabAll.TextSize = 14
+
+TeleportAll.Name = "TeleportAll"
+TeleportAll.Parent = AllScroll
+TeleportAll.BackgroundColor3 = Color3.new(0, 0, 0)
+TeleportAll.Position = UDim2.new(0, 0, 0, 30.25)
+TeleportAll.Size = UDim2.new(0, 128, 0, 30.25)
+TeleportAll.Font = Enum.Font.SourceSans
+TeleportAll.Text = "TeleportAll"
+TeleportAll.TextColor3 = Color3.new(1, 1, 1)
+TeleportAll.TextSize = 14
+
+SlowAll.Name = "SlowAll"
+SlowAll.Parent = AllScroll
+SlowAll.BackgroundColor3 = Color3.new(0, 0, 0)
+SlowAll.Position = UDim2.new(0, 0, 0, 60.5)
+SlowAll.Size = UDim2.new(0, 128, 0, 30.25)
+SlowAll.Font = Enum.Font.SourceSans
+SlowAll.Text = "SlowAll"
+SlowAll.TextColor3 = Color3.new(1, 1, 1)
+SlowAll.TextSize = 14
+
+FreezeAll.Name = "FreezeAll"
+FreezeAll.Parent = AllScroll
+FreezeAll.BackgroundColor3 = Color3.new(0, 0, 0)
+FreezeAll.Position = UDim2.new(0, 0, 0, 90.75)
+FreezeAll.Size = UDim2.new(0, 128, 0, 30.25)
+FreezeAll.Font = Enum.Font.SourceSans
+FreezeAll.Text = "FreezeAll"
+FreezeAll.TextColor3 = Color3.new(1, 1, 1)
+FreezeAll.TextSize = 14
+
+BurnAll.Name = "BurnAll"
+BurnAll.Parent = AllScroll
+BurnAll.BackgroundColor3 = Color3.new(0, 0, 0)
+BurnAll.Position = UDim2.new(0, 0, 0, 121)
+BurnAll.Size = UDim2.new(0, 128, 0, 30.25)
+BurnAll.Font = Enum.Font.SourceSans
+BurnAll.Text = "BurnAll"
+BurnAll.TextColor3 = Color3.new(1, 1, 1)
+BurnAll.TextSize = 14
+
+AnnoyAll.Name = "AnnoyAll"
+AnnoyAll.Parent = AllScroll
+AnnoyAll.BackgroundColor3 = Color3.new(0, 0, 0)
+AnnoyAll.Position = UDim2.new(0, 0, 0, 151.25)
+AnnoyAll.Size = UDim2.new(0, 128, 0, 30.25)
+AnnoyAll.Font = Enum.Font.SourceSans
+AnnoyAll.Text = "AnnoyAll"
+AnnoyAll.TextColor3 = Color3.new(1, 1, 1)
+AnnoyAll.TextSize = 14
+
+AnnoyAllV2.Name = "AnnoyAllV2"
+AnnoyAllV2.Parent = AllScroll
+AnnoyAllV2.BackgroundColor3 = Color3.new(0, 0, 0)
+AnnoyAllV2.Position = UDim2.new(0, 0, 0, 181.5)
+AnnoyAllV2.Size = UDim2.new(0, 128, 0, 30.25)
+AnnoyAllV2.Font = Enum.Font.SourceSans
+AnnoyAllV2.Text = "AnnoyAllV2"
+AnnoyAllV2.TextColor3 = Color3.new(1, 1, 1)
+AnnoyAllV2.TextSize = 14
+
+GodAll.Name = "GodAll"
+GodAll.Parent = AllScroll
+GodAll.BackgroundColor3 = Color3.new(0, 0, 0)
+GodAll.Position = UDim2.new(0, 0, 0, 211.75)
+GodAll.Size = UDim2.new(0, 128, 0, 30.25)
+GodAll.Font = Enum.Font.SourceSans
+GodAll.Text = "GodAll"
+GodAll.TextColor3 = Color3.new(1, 1, 1)
+GodAll.TextSize = 14
+
+FlingAll.Name = "FlingAll"
+FlingAll.Parent = AllScroll
+FlingAll.BackgroundColor3 = Color3.new(0, 0, 0)
+FlingAll.Position = UDim2.new(0, 0, 0, 242)
+FlingAll.Size = UDim2.new(0, 128, 0, 30.25)
+FlingAll.Font = Enum.Font.SourceSans
+FlingAll.Text = "FlingAll"
+FlingAll.TextColor3 = Color3.new(1, 1, 1)
+FlingAll.TextSize = 14
+
+FreezeFlingAll.Name = "FreezeFlingAll"
+FreezeFlingAll.Parent = AllScroll
+FreezeFlingAll.BackgroundColor3 = Color3.new(0, 0, 0)
+FreezeFlingAll.Position = UDim2.new(0, 0, 0, 272.25)
+FreezeFlingAll.Size = UDim2.new(0, 128, 0, 30.25)
+FreezeFlingAll.Font = Enum.Font.SourceSans
+FreezeFlingAll.Text = "FreezeFlingAll"
+FreezeFlingAll.TextColor3 = Color3.new(1, 1, 1)
+FreezeFlingAll.TextSize = 14
+
+PrisonAll.Name = "PrisonAll"
+PrisonAll.Parent = AllScroll
+PrisonAll.BackgroundColor3 = Color3.new(0, 0, 0)
+PrisonAll.Position = UDim2.new(0, 0, 0, 302.5)
+PrisonAll.Size = UDim2.new(0, 128, 0, 30.25)
+PrisonAll.Font = Enum.Font.SourceSans
+PrisonAll.Text = "PrisonAll"
+PrisonAll.TextColor3 = Color3.new(1, 1, 1)
+PrisonAll.TextSize = 14
+
+FloatAll.Name = "FloatAll"
+FloatAll.Parent = AllScroll
+FloatAll.BackgroundColor3 = Color3.new(0, 0, 0)
+FloatAll.Position = UDim2.new(0, 0, 0, 332.75)
+FloatAll.Size = UDim2.new(0, 128, 0, 30.25)
+FloatAll.Font = Enum.Font.SourceSans
+FloatAll.Text = "FloatAll"
+FloatAll.TextColor3 = Color3.new(1, 1, 1)
+FloatAll.TextSize = 14
+
+BlindAll.Name = "BlindAll"
+BlindAll.Parent = AllScroll
+BlindAll.BackgroundColor3 = Color3.new(0, 0, 0)
+BlindAll.Position = UDim2.new(0, 0, 0, 363)
+BlindAll.Size = UDim2.new(0, 128, 0, 30.25)
+BlindAll.Font = Enum.Font.SourceSans
+BlindAll.Text = "BlindAll"
+BlindAll.TextColor3 = Color3.new(1, 1, 1)
+BlindAll.TextSize = 14
+
+TripAll.Name = "TripAll"
+TripAll.Parent = AllScroll
+TripAll.BackgroundColor3 = Color3.new(0, 0, 0)
+TripAll.Position = UDim2.new(0, 0, 0, 393.25)
+TripAll.Size = UDim2.new(0, 128, 0, 30.25)
+TripAll.Font = Enum.Font.SourceSans
+TripAll.Text = "TripAll"
+TripAll.TextColor3 = Color3.new(1, 1, 1)
+TripAll.TextSize = 14
+
+CloseAll.Name = "CloseAll"
+CloseAll.Parent = AllGui
+CloseAll.BackgroundColor3 = Color3.new(0, 0, 0)
+CloseAll.Position = UDim2.new(0.89, 0, 0, 1)
+CloseAll.Size = UDim2.new(0, 13, 0, 13)
+CloseAll.Font = Enum.Font.SourceSans
+CloseAll.Text = "X"
+CloseAll.TextColor3 = Color3.new(255, 0, 0)
+CloseAll.TextSize = 14
+
+Name.Name = "Name"
+Name.Parent = Frame
+Name.BackgroundColor3 = Color3.new(0, 0, 0)
+Name.Position = UDim2.new(0.26, 0, 0, 16)
+Name.Size = UDim2.new(0, 128, 0, 30.25)
+Name.Font = Enum.Font.SourceSans
+Name.Text = "TargetsName"
+Name.TextColor3 = Color3.new(0.5, 0.5, 0.5)
+Name.TextSize = 14
+
+Self.Name = "Self"
+Self.Parent = Frame
+Self.BackgroundColor3 = Color3.new(0, 0, 0)
+Self.Position = UDim2.new(0.744, 0, 0, 16)
+Self.Size = UDim2.new(0, 67, 0, 60.5)
+Self.Font = Enum.Font.SourceSans
+Self.Text = "Self"
+Self.TextColor3 = Color3.new(1, 1, 1)
+Self.TextSize = 14
+
+SelfGui.Name = "SelfGui"
+SelfGui.Parent = Self
+SelfGui.BackgroundColor3 = Color3.new(255, 255, 255)
+SelfGui.BorderColor3 = Color3.new(0, 1, 1)
+SelfGui.BorderSizePixel = 2
+SelfGui.Position = UDim2.new(3.85, 0, 0, -16)
+SelfGui.Size = UDim2.new(0, 130, 0, 257)
+SelfGui.Visible = false
+SelfGui.Active = true
+SelfGui.Draggable = true
+
+SelfGuiLabel.Parent = SelfGui
+SelfGuiLabel.Position = UDim2.new(0, 65, 0, 7)
+SelfGuiLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+SelfGuiLabel.BackgroundTransparency = 1
+SelfGuiLabel.Font = Enum.Font.SourceSans
+SelfGuiLabel.Text = "SelfGui"
+SelfGuiLabel.TextColor3 = Color3.new(0, 0, 0)
+SelfGuiLabel.TextSize = 14
+
+SelfScroll.Name = "SelfScroll"
+SelfScroll.Parent = SelfGui
+SelfScroll.BackgroundColor3 = Color3.new(0, 0, 0)
+SelfScroll.BackgroundTransparency = 0
+SelfScroll.Position = UDim2.new(0, 1, 0, 15)
+SelfScroll.Size = UDim2.new(0, 128, 0, 241)
+SelfScroll.CanvasSize = UDim2.new(0, 128, 0, 302.5)
+SelfScroll.ScrollBarThickness = 2
+
+CrashServer.Name = "CrashServer"
+CrashServer.Parent = SelfScroll
+CrashServer.BackgroundColor3 = Color3.new(0, 0, 0)
+CrashServer.Position = UDim2.new(0, 0, 0, 0)
+CrashServer.Size = UDim2.new(0, 128, 0, 30.25)
+CrashServer.Font = Enum.Font.SourceSans
+CrashServer.Text = "CrashServer"
+CrashServer.TextColor3 = Color3.new(1, 1, 1)
+CrashServer.TextSize = 14
+
+StandStorage.Name = "StandStorage"
+StandStorage.Parent = SelfScroll
+StandStorage.BackgroundColor3 = Color3.new(0, 0, 0)
+StandStorage.Position = UDim2.new(0, 0, 0, 30.25)
+StandStorage.Size = UDim2.new(0, 128, 0, 30.25)
+StandStorage.Font = Enum.Font.SourceSans
+StandStorage.Text = "StandStorage"
+StandStorage.TextColor3 = Color3.new(1, 1, 1)
+StandStorage.TextSize = 14
+
+OpStand.Name = "OpStand"
+OpStand.Parent = SelfScroll
+OpStand.BackgroundColor3 = Color3.new(0, 0, 0)
+OpStand.Position = UDim2.new(0, 0, 0, 60.5)
+OpStand.Size = UDim2.new(0, 128, 0, 30.25)
+OpStand.Font = Enum.Font.SourceSans
+OpStand.Text = "OpStand"
+OpStand.TextColor3 = Color3.new(1, 1, 1)
+OpStand.TextSize = 14
+
+GodSelf.Name = "GodSelf"
+GodSelf.Parent = SelfScroll
+GodSelf.BackgroundColor3 = Color3.new(0, 0, 0)
+GodSelf.Position = UDim2.new(0, 0, 0, 90.75)
+GodSelf.Size = UDim2.new(0, 128, 0, 30.25)
+GodSelf.Font = Enum.Font.SourceSans
+GodSelf.Text = "GodSelf"
+GodSelf.TextColor3 = Color3.new(1, 1, 1)
+GodSelf.TextSize = 14
+
+CustomStand.Name = "CustomStand"
+CustomStand.Parent = SelfScroll
+CustomStand.BackgroundColor3 = Color3.new(0, 0, 0)
+CustomStand.Position = UDim2.new(0, 0, 0, 121)
+CustomStand.Size = UDim2.new(0, 128, 0, 30.25)
+CustomStand.Font = Enum.Font.SourceSans
+CustomStand.Text = "CustomStand"
+CustomStand.TextColor3 = Color3.new(1, 1, 1)
+CustomStand.TextSize = 14
+
+TimestopMovement.Name = "TimestopMovement"
+TimestopMovement.Parent = SelfScroll
+TimestopMovement.BackgroundColor3 = Color3.new(0, 0, 0)
+TimestopMovement.Position = UDim2.new(0, 0, 0, 151.25)
+TimestopMovement.Size = UDim2.new(0, 128, 0, 30.25)
+TimestopMovement.Font = Enum.Font.SourceSans
+TimestopMovement.Text = "TimestopMovement"
+TimestopMovement.TextColor3 = Color3.new(1, 1, 1)
+TimestopMovement.TextSize = 14
+
+Killaura.Name = "Killaura"
+Killaura.Parent = SelfScroll
+Killaura.BackgroundColor3 = Color3.new(0, 0, 0)
+Killaura.Position = UDim2.new(0, 0, 0, 181.5)
+Killaura.Size = UDim2.new(0, 128, 0, 30.25)
+Killaura.Font = Enum.Font.SourceSans
+Killaura.Text = "Killaura"
+Killaura.TextColor3 = Color3.new(1, 1, 1)
+Killaura.TextSize = 14
+
+Morphs.Name = "Morphs"
+Morphs.Parent = SelfScroll
+Morphs.BackgroundColor3 = Color3.new(0, 0, 0)
+Morphs.Position = UDim2.new(0, 0, 0, 211.75)
+Morphs.Size = UDim2.new(0, 128, 0, 30.25)
+Morphs.Font = Enum.Font.SourceSans
+Morphs.Text = "Morphs"
+Morphs.TextColor3 = Color3.new(1, 1, 1)
+Morphs.TextSize = 14
+
+Invisible.Name = "Invisible"
+Invisible.Parent = SelfScroll
+Invisible.BackgroundColor3 = Color3.new(0, 0, 0)
+Invisible.Position = UDim2.new(0, 0, 0, 242)
+Invisible.Size = UDim2.new(0, 128, 0, 30.25)
+Invisible.Font = Enum.Font.SourceSans
+Invisible.Text = "Invisible"
+Invisible.TextColor3 = Color3.new(1, 1, 1)
+Invisible.TextSize = 14
+
+CloneSelf.Name = "CloneSelf"
+CloneSelf.Parent = SelfScroll
+CloneSelf.BackgroundColor3 = Color3.new(0, 0, 0)
+CloneSelf.Position = UDim2.new(0, 0, 0, 272.25)
+CloneSelf.Size = UDim2.new(0, 128, 0, 30.25)
+CloneSelf.Font = Enum.Font.SourceSans
+CloneSelf.Text = "CloneSelf"
+CloneSelf.TextColor3 = Color3.new(1, 1, 1)
+CloneSelf.TextSize = 14
+
+MorphsGui.Name = "MorphsGui"
+MorphsGui.Parent = Shop
+MorphsGui.BackgroundColor3 = Color3.new(255, 255, 255)
+MorphsGui.BorderColor3 = Color3.new(0, 0.5, 0.2)
+MorphsGui.BorderSizePixel = 2
+MorphsGui.Position = UDim2.new(11.1, 0, 0, -76.5)
+MorphsGui.Size = UDim2.new(0, 130, 0, 200)
+MorphsGui.Visible = false
+MorphsGui.Active = true
+MorphsGui.Draggable = true
+
+Creeper.Name = "Creeper"
+Creeper.Parent = MorphsGui
+Creeper.BackgroundColor3 = Color3.new(0, 0, 0)
+Creeper.Position = UDim2.new(0, 0, 0, 15)
+Creeper.Size = UDim2.new(0, 130, 0, 30.25)
+Creeper.Font = Enum.Font.SourceSans
+Creeper.Text = "Creeper"
+Creeper.TextColor3 = Color3.new(1, 1, 1)
+Creeper.TextSize = 14
+
+Swastika.Name = "Swastika"
+Swastika.Parent = MorphsGui
+Swastika.BackgroundColor3 = Color3.new(0, 0, 0)
+Swastika.Position = UDim2.new(0, 0, 0, 45)
+Swastika.Size = UDim2.new(0, 130, 0, 30.25)
+Swastika.Font = Enum.Font.SourceSans
+Swastika.Text = "Swastika"
+Swastika.TextColor3 = Color3.new(1, 1, 1)
+Swastika.TextSize = 14
+
+NaziSalute.Name = "NaziSalute"
+NaziSalute.Parent = MorphsGui
+NaziSalute.BackgroundColor3 = Color3.new(0, 0, 0)
+NaziSalute.Position = UDim2.new(0, 0, 0, 75)
+NaziSalute.Size = UDim2.new(0, 130, 0, 30.25)
+NaziSalute.Font = Enum.Font.SourceSans
+NaziSalute.Text = "Nazi Salute"
+NaziSalute.TextColor3 = Color3.new(1, 1, 1)
+NaziSalute.TextSize = 14
+
+Snake.Name = "Snake"
+Snake.Parent = MorphsGui
+Snake.BackgroundColor3 = Color3.new(0, 0, 0)
+Snake.Position = UDim2.new(0, 0, 0, 105)
+Snake.Size = UDim2.new(0, 130, 0, 30.25)
+Snake.Font = Enum.Font.SourceSans
+Snake.Text = "Snake"
+Snake.TextColor3 = Color3.new(1, 1, 1)
+Snake.TextSize = 14
+
+Block.Name = "Block"
+Block.Parent = MorphsGui
+Block.BackgroundColor3 = Color3.new(0, 0, 0)
+Block.Position = UDim2.new(0, 0, 0, 135)
+Block.Size = UDim2.new(0, 130, 0, 30.25)
+Block.Font = Enum.Font.SourceSans
+Block.Text = "Block"
+Block.TextColor3 = Color3.new(1, 1, 1)
+Block.TextSize = 14
+
+Cripple.Name = "Cripple"
+Cripple.Parent = MorphsGui
+Cripple.BackgroundColor3 = Color3.new(0, 0, 0)
+Cripple.Position = UDim2.new(0, 0, 0, 165)
+Cripple.Size = UDim2.new(0, 130, 0, 34)
+Cripple.Font = Enum.Font.SourceSans
+Cripple.Text = "Cripple"
+Cripple.TextColor3 = Color3.new(1, 1, 1)
+Cripple.TextSize = 14
+
+CloseMorphs.Name = "CloseMorphs"
+CloseMorphs.Parent = MorphsGui
+CloseMorphs.BackgroundColor3 = Color3.new(0, 0, 0)
+CloseMorphs.Position = UDim2.new(0.89, 0, 0, 1)
+CloseMorphs.Size = UDim2.new(0, 13, 0, 13)
+CloseMorphs.Font = Enum.Font.SourceSans
+CloseMorphs.Text = "X"
+CloseMorphs.TextColor3 = Color3.new(255, 0, 0)
+CloseMorphs.TextSize = 14
+
+MorphsGuiLabel.Name = "MorphsGuiLabel"
+MorphsGuiLabel.Parent = MorphsGui
+MorphsGuiLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+MorphsGuiLabel.BackgroundTransparency = 1
+MorphsGuiLabel.Position = UDim2.new(0, 65, 0, 7)
+MorphsGuiLabel.Font = Enum.Font.SourceSans
+MorphsGuiLabel.Text = "MorphsGui"
+MorphsGuiLabel.TextColor3 = Color3.new(0, 0, 0)
+MorphsGuiLabel.TextSize = 14
+
+CloseSelf.Name = "CloseSelf"
+CloseSelf.Parent = SelfGui
+CloseSelf.BackgroundColor3 = Color3.new(0, 0, 0)
+CloseSelf.Position = UDim2.new(0.89, 0, 0, 1)
+CloseSelf.Size = UDim2.new(0, 13, 0, 13)
+CloseSelf.Font = Enum.Font.SourceSans
+CloseSelf.Text = "X"
+CloseSelf.TextColor3 = Color3.new(255, 0, 0)
+CloseSelf.TextSize = 14
+
+Target.Name = "Target"
+Target.Parent = Frame
+Target.BackgroundColor3 = Color3.new(0, 0, 0)
+Target.Position = UDim2.new(0, 1, 0, 76.5)
+Target.Size = UDim2.new(0, 67, 0, 60.5)
+Target.Font = Enum.Font.SourceSans
+Target.Text = "Target"
+Target.TextColor3 = Color3.new(1, 1, 1)
+Target.TextSize = 14
+
+TargetGui.Name = "TargetGui"
+TargetGui.Parent = Target
+TargetGui.BackgroundColor3 = Color3.new(255, 255, 255)
+TargetGui.BorderColor3 = Color3.new(1, 0, 1)
+TargetGui.BorderSizePixel = 2
+TargetGui.Position = UDim2.new(9.15, 3, 0, -76.5)
+TargetGui.Size = UDim2.new(0, 130, 0, 257)
+TargetGui.Visible = false
+TargetGui.Active = true
+TargetGui.Draggable = true
+
+TargetGuiLabel.Name = "TargetGuiLabel"
+TargetGuiLabel.Parent = TargetGui
+TargetGuiLabel.Position = UDim2.new(0, 65, 0, 7)
+TargetGuiLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TargetGuiLabel.BackgroundTransparency = 1
+TargetGuiLabel.Font = Enum.Font.SourceSans
+TargetGuiLabel.Text = "TargetGui"
+TargetGuiLabel.TextColor3 = Color3.new(0, 0, 0)
+TargetGuiLabel.TextSize = 14
+
+TargetScroll.Name = "TargetScroll"
+TargetScroll.Parent = TargetGui
+TargetScroll.BackgroundColor3 = Color3.new(0, 0, 0)
+TargetScroll.BackgroundTransparency = 0
+TargetScroll.BorderSizePixel = 1
+TargetScroll.Position = UDim2.new(0, 1, 0, 15)
+TargetScroll.Size = UDim2.new(0, 128, 0, 241)
+TargetScroll.CanvasSize = UDim2.new(0, 128, 0, 514.25)
+TargetScroll.ScrollBarThickness = 2
+TargetScroll.Active = true
+
+--Could be any other players name so they get hit and they report that person, 
+--but put your name so you can report them.
+YourName.Name = "YourName"
+YourName.Parent = TargetScroll
+YourName.BackgroundColor3 = Color3.new(0, 0, 0)
+YourName.Position = UDim2.new(0, 0, 0, 0)
+YourName.Size = UDim2.new(0, 128, 0, 30.25)
+YourName.Font = Enum.Font.SourceSans
+YourName.Text = "PlayerName"
+YourName.TextColor3 = Color3.new(0.5, 0.5, 0.5)
+YourName.TextSize = 14
+YourName.TextWrapped = true
+
+--Person you are framing's name
+TargetName.Name = "TargetName"
+TargetName.Parent = TargetScroll
+TargetName.BackgroundColor3 = Color3.new(0, 0, 0)
+TargetName.Position = UDim2.new(0, 0, 0, 30.25)
+TargetName.Size = UDim2.new(0, 128, 0, 30.25)
+TargetName.Font = Enum.Font.SourceSans
+TargetName.Text = "FramedTargetsName"
+TargetName.TextColor3 = Color3.new(0.5, 0.5, 0.5)
+TargetName.TextSize = 14
+
+--Deals damage to PlayerName from FramedTargetsName
+FrameTarget.Name = "FrameTarget"
+FrameTarget.Parent = TargetScroll
+FrameTarget.BackgroundColor3 = Color3.new(0, 0, 0)
+FrameTarget.Position = UDim2.new(0, 0, 0, 60.5)
+FrameTarget.Size = UDim2.new(0, 128, 0, 30.25)
+FrameTarget.Font = Enum.Font.SourceSans
+FrameTarget.Text = "FrameTarget"
+FrameTarget.TextColor3 = Color3.new(1, 1, 1)
+FrameTarget.TextSize = 14
+
+StabTarget.Name = "StabTarget"
+StabTarget.Parent = TargetScroll
+StabTarget.BackgroundColor3 = Color3.new(0, 0, 0)
+StabTarget.Position = UDim2.new(0, 0, 0, 90.75)
+StabTarget.Size = UDim2.new(0, 128, 0, 30.25)
+StabTarget.Font = Enum.Font.SourceSans
+StabTarget.Text = "StabTarget"
+StabTarget.TextColor3 = Color3.new(1, 1, 1)
+StabTarget.TextSize = 14
+
+GodTarget.Name = "GodTarget"
+GodTarget.Parent = TargetScroll
+GodTarget.BackgroundColor3 = Color3.new(0, 0, 0)
+GodTarget.Position = UDim2.new(0, 0, 0, 121)
+GodTarget.Size = UDim2.new(0, 128, 0, 30.25)
+GodTarget.Font = Enum.Font.SourceSans
+GodTarget.Text = "GodTarget"
+GodTarget.TextColor3 = Color3.new(1, 1, 1)
+GodTarget.TextSize = 14
+
+AnnoyTarget.Name = "AnnoyTarget"
+AnnoyTarget.Parent = TargetScroll
+AnnoyTarget.BackgroundColor3 = Color3.new(0, 0, 0)
+AnnoyTarget.Position = UDim2.new(0, 0, 0, 151.25)
+AnnoyTarget.Size = UDim2.new(0, 128, 0, 30.25)
+AnnoyTarget.Font = Enum.Font.SourceSans
+AnnoyTarget.Text = "AnnoyTarget"
+AnnoyTarget.TextColor3 = Color3.new(1, 1, 1)
+AnnoyTarget.TextSize = 14
+
+AnnoyTargetV2.Name = "AnnoyTargetV2"
+AnnoyTargetV2.Parent = TargetScroll
+AnnoyTargetV2.BackgroundColor3 = Color3.new(0, 0, 0)
+AnnoyTargetV2.Position = UDim2.new(0, 0, 0, 181.5)
+AnnoyTargetV2.Size = UDim2.new(0, 128, 0, 30.25)
+AnnoyTargetV2.Font = Enum.Font.SourceSans
+AnnoyTargetV2.Text = "AnnoyTargetV2"
+AnnoyTargetV2.TextColor3 = Color3.new(1, 1, 1)
+AnnoyTargetV2.TextSize = 14
+
+SlowTarget.Name = "SlowTarget"
+SlowTarget.Parent = TargetScroll
+SlowTarget.BackgroundColor3 = Color3.new(0, 0, 0)
+SlowTarget.Position = UDim2.new(0, 0, 0, 211.75)
+SlowTarget.Size = UDim2.new(0, 128, 0, 30.25)
+SlowTarget.Font = Enum.Font.SourceSans
+SlowTarget.Text = "SlowTarget"
+SlowTarget.TextColor3 = Color3.new(1, 1, 1)
+SlowTarget.TextSize = 14
+
+BurnTarget.Name = "BurnTarget"
+BurnTarget.Parent = TargetScroll
+BurnTarget.BackgroundColor3 = Color3.new(0, 0, 0)
+BurnTarget.Position = UDim2.new(0, 0, 0, 242)
+BurnTarget.Size = UDim2.new(0, 128, 0, 30.25)
+BurnTarget.Font = Enum.Font.SourceSans
+BurnTarget.Text = "BurnTarget"
+BurnTarget.TextColor3 = Color3.new(1, 1, 1)
+BurnTarget.TextSize = 14
+
+TeleportTarget.Name = "TeleportTarget"
+TeleportTarget.Parent = TargetScroll
+TeleportTarget.BackgroundColor3 = Color3.new(0, 0, 0)
+TeleportTarget.Position = UDim2.new(0, 0, 0, 272.25)
+TeleportTarget.Size = UDim2.new(0, 128, 0, 30.25)
+TeleportTarget.Font = Enum.Font.SourceSans
+TeleportTarget.Text = "TeleportTarget"
+TeleportTarget.TextColor3 = Color3.new(1, 1, 1)
+TeleportTarget.TextSize = 14
+
+FreezeTarget.Name = "FreezeTarget"
+FreezeTarget.Parent = TargetScroll
+FreezeTarget.BackgroundColor3 = Color3.new(0, 0, 0)
+FreezeTarget.Position = UDim2.new(0, 0, 0, 302.5)
+FreezeTarget.Size = UDim2.new(0, 128, 0, 30.25)
+FreezeTarget.Font = Enum.Font.SourceSans
+FreezeTarget.Text = "FreezeTarget"
+FreezeTarget.TextColor3 = Color3.new(1, 1, 1)
+FreezeTarget.TextSize = 14
+
+FlingTarget.Name = "FlingTarget"
+FlingTarget.Parent = TargetScroll
+FlingTarget.BackgroundColor3 = Color3.new(0, 0, 0)
+FlingTarget.Position = UDim2.new(0, 0, 0, 332.75)
+FlingTarget.Size = UDim2.new(0, 128, 0, 30.25)
+FlingTarget.Font = Enum.Font.SourceSans
+FlingTarget.Text = "FlingTarget"
+FlingTarget.TextColor3 = Color3.new(1, 1, 1)
+FlingTarget.TextSize = 14
+
+FreezeFling.Name = "FreezeFling"
+FreezeFling.Parent = TargetScroll
+FreezeFling.BackgroundColor3 = Color3.new(0, 0, 0)
+FreezeFling.Position = UDim2.new(0, 0, 0, 363)
+FreezeFling.Size = UDim2.new(0, 128, 0, 30.25)
+FreezeFling.Font = Enum.Font.SourceSans
+FreezeFling.Text = "FreezeFling"
+FreezeFling.TextColor3 = Color3.new(1, 1, 1)
+FreezeFling.TextSize = 14
+
+PrisonTarget.Name = "PrisonTarget"
+PrisonTarget.Parent = TargetScroll
+PrisonTarget.BackgroundColor3 = Color3.new(0, 0, 0)
+PrisonTarget.Position = UDim2.new(0, 0, 0, 393.25)
+PrisonTarget.Size = UDim2.new(0, 128, 0, 30.25)
+PrisonTarget.Font = Enum.Font.SourceSans
+PrisonTarget.Text = "PrisonTarget"
+PrisonTarget.TextColor3 = Color3.new(1, 1, 1)
+PrisonTarget.TextSize = 14
+
+FloatTarget.Name = "FloatTarget"
+FloatTarget.Parent = TargetScroll
+FloatTarget.BackgroundColor3 = Color3.new(0, 0, 0)
+FloatTarget.Position = UDim2.new(0, 0, 0, 423.50)
+FloatTarget.Size = UDim2.new(0, 128, 0, 30.25)
+FloatTarget.Font = Enum.Font.SourceSans
+FloatTarget.Text = "FloatTarget"
+FloatTarget.TextColor3 = Color3.new(1, 1, 1)
+FloatTarget.TextSize = 14
+
+TripTarget.Name = "TripTarget"
+TripTarget.Parent = TargetScroll
+TripTarget.BackgroundColor3 = Color3.new(0, 0, 0)
+TripTarget.Position = UDim2.new(0, 0, 0, 453.75)
+TripTarget.Size = UDim2.new(0, 128, 0, 30.25)
+TripTarget.Font = Enum.Font.SourceSans
+TripTarget.Text = "TripTarget"
+TripTarget.TextColor3 = Color3.new(1, 1, 1)
+TripTarget.TextSize = 14
+
+BlindTarget.Name = "BlindTarget"
+BlindTarget.Parent = TargetScroll
+BlindTarget.BackgroundColor3 = Color3.new(0, 0, 0)
+BlindTarget.Position = UDim2.new(0, 0, 0, 484)
+BlindTarget.Size = UDim2.new(0, 128, 0, 30.25)
+BlindTarget.Font = Enum.Font.SourceSans
+BlindTarget.Text = "BlindTarget"
+BlindTarget.TextColor3 = Color3.new(1, 1, 1)
+BlindTarget.TextSize = 14
+
+CloseTarget.Name = "CloseTarget"
+CloseTarget.Parent = TargetGui
+CloseTarget.BackgroundColor3 = Color3.new(0, 0, 0)
+CloseTarget.Position = UDim2.new(0.89, 0, 0, 1)
+CloseTarget.Size = UDim2.new(0, 13, 0, 13)
+CloseTarget.Font = Enum.Font.SourceSans
+CloseTarget.Text = "X"
+CloseTarget.TextColor3 = Color3.new(255, 0, 0)
+CloseTarget.TextSize = 14
+
+Shop.Name = "Shop"
+Shop.Parent = Frame
+Shop.BackgroundColor3 = Color3.new(0, 0, 0)
+Shop.Position = UDim2.new(0.745, 0, 0, 76.5)
+Shop.Size = UDim2.new(0, 67, 0, 60.5)
+Shop.Font = Enum.Font.SourceSans
+Shop.Text = "ItemShop"
+Shop.TextColor3 = Color3.new(1, 1, 1)
+Shop.TextSize = 14
+
+ShopGui.Name = "ShopGui"
+ShopGui.Parent = Shop
+ShopGui.BackgroundColor3 = Color3.new(255, 255, 255)
+ShopGui.BorderColor3 = Color3.new(0, 0.5, 0.2)
+ShopGui.BorderSizePixel = 2
+ShopGui.Position = UDim2.new(8.65, 0, 0, -76.5)
+ShopGui.Size = UDim2.new(0, 130, 0, 106.5)
+ShopGui.Visible = false
+ShopGui.Active = true
+ShopGui.Draggable = true
+
+ShopGuiLabel.Parent = ShopGui
+ShopGuiLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+ShopGuiLabel.BackgroundTransparency = 1
+ShopGuiLabel.Position = UDim2.new(0, 65, 0, 7)
+ShopGuiLabel.Font = Enum.Font.SourceSans
+ShopGuiLabel.Text = "ShopGui"
+ShopGuiLabel.TextColor3 = Color3.new(0, 0, 0)
+ShopGuiLabel.TextSize = 14
+
+StandArrow.Name = "StandArrow"
+StandArrow.Parent = ShopGui
+StandArrow.BackgroundColor3 = Color3.new(0, 0, 0)
+StandArrow.BorderColor3 = Color3.new(0.152941, 0.152941, 0.152941)
+StandArrow.Position = UDim2.new(0, 1, 0, 15)
+StandArrow.Size = UDim2.new(0, 128, 0, 30.25)
+StandArrow.Font = Enum.Font.SourceSans
+StandArrow.Text = "StandArrow"
+StandArrow.TextColor3 = Color3.new(1, 1, 1)
+StandArrow.TextSize = 14
+
+Rokakaka.Name = "Rokakaka"
+Rokakaka.Parent = ShopGui
+Rokakaka.BackgroundColor3 = Color3.new(0, 0, 0)
+Rokakaka.BorderColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+Rokakaka.Position = UDim2.new(0, 1, 0, 45.25)
+Rokakaka.Size = UDim2.new(0, 128, 0, 30.25)
+Rokakaka.Font = Enum.Font.SourceSans
+Rokakaka.Text = "RokakakaFruit"
+Rokakaka.TextColor3 = Color3.new(1, 1, 1)
+Rokakaka.TextSize = 14
+
+VampMask.Name = "VampMask"
+VampMask.Parent = ShopGui
+VampMask.BackgroundColor3 = Color3.new(0, 0, 0)
+VampMask.BorderColor3 = Color3.new(0.141176, 0.141176, 0.141176)
+VampMask.Position = UDim2.new(0, 1, 0, 75.5)
+VampMask.Size = UDim2.new(0, 128, 0, 30.25)
+VampMask.Font = Enum.Font.SourceSans
+VampMask.Text = "VampireMask"
+VampMask.TextColor3 = Color3.new(1, 1, 1)
+VampMask.TextSize = 14
+
+CloseShop.Name = "CloseShop"
+CloseShop.Parent = ShopGui
+CloseShop.BackgroundColor3 = Color3.new(0, 0, 0)
+CloseShop.Position = UDim2.new(0.89, 0, 0, 1)
+CloseShop.Size = UDim2.new(0, 13, 0, 13)
+CloseShop.Font = Enum.Font.SourceSans
+CloseShop.Text = "X"
+CloseShop.TextColor3 = Color3.new(255, 0, 0)
+CloseShop.TextSize = 14
+
+CCTP.Name = "CCTP"
+CCTP.Parent = Frame
+CCTP.BackgroundColor3 = Color3.new(0, 0, 0)
+CCTP.Position = UDim2.new(0, 1, 0, 137)
+CCTP.Size = UDim2.new(0, 67, 0, 60.5)
+CCTP.Font = Enum.Font.SourceSans
+CCTP.Text = "Ctrl+ClickTP"
+CCTP.TextColor3 = Color3.new(1, 1, 1)
+CCTP.TextSize = 14
+
+Extras.Name = "Extras"
+Extras.Parent = Frame
+Extras.BackgroundColor3 = Color3.new(0, 0, 0)
+Extras.Position = UDim2.new(0.744, 0, 0, 135)
+Extras.Size = UDim2.new(0, 67, 0, 60.5)
+Extras.Font = Enum.Font.SourceSans
+Extras.Text = "Extras"
+Extras.TextColor3 = Color3.new(1, 1, 1)
+Extras.TextSize = 14
+
+ExtrasGui.Name = "ExtrasGuiLabel"
+ExtrasGui.Parent = Extras
+ExtrasGui.BackgroundColor3 = Color3.new(255, 255, 255)
+ExtrasGui.BorderColor3 = Color3.new(0.8, 0.4, 0.2)
+ExtrasGui.BorderSizePixel = 2
+ExtrasGui.Position = UDim2.new(3.85, 0, 0, -420)
+ExtrasGui.Size = UDim2.new(0, 130, 0, 257)
+ExtrasGui.Visible = false
+ExtrasGui.Active = true
+ExtrasGui.Draggable = true
+
+ExtrasGuiLabel.Parent = ExtrasGui
+ExtrasGuiLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+ExtrasGuiLabel.BackgroundTransparency = 1
+ExtrasGuiLabel.Position = UDim2.new(0, 65, 0, 7)
+ExtrasGuiLabel.Font = Enum.Font.SourceSans
+ExtrasGuiLabel.Text = "ExtrasGui"
+ExtrasGuiLabel.TextColor3 = Color3.new(0, 0, 0)
+ExtrasGuiLabel.TextSize = 14
+
+ExtrasScroll.Name = "ExtrasScroll"
+ExtrasScroll.Parent = ExtrasGui
+ExtrasScroll.BackgroundColor3 = Color3.new(0, 0, 0)
+ExtrasScroll.BackgroundTransparency = 0
+ExtrasScroll.Position = UDim2.new(0, 1, 0, 15)
+ExtrasScroll.Size = UDim2.new(0, 128, 0, 241)
+ExtrasScroll.CanvasSize = UDim2.new(0, 128, 0, 453.75)
+ExtrasScroll.ScrollBarThickness = 2
+ExtrasScroll.Active = true
+
+AnubisExtras.Name = "AnubisExtras"
+AnubisExtras.Parent = ExtrasScroll
+AnubisExtras.BackgroundColor3 = Color3.new(0, 0, 0)
+AnubisExtras.Position = UDim2.new(0, 0, 0, 0)
+AnubisExtras.Size = UDim2.new(0, 128, 0, 30.25)
+AnubisExtras.Font = Enum.Font.SourceSans
+AnubisExtras.Text = "Anubis -"
+AnubisExtras.TextColor3 = Color3.new(1, 1, 1)
+AnubisExtras.TextSize = 14
+
+AnubisGodmode.Name = "AnubisGodmode"
+AnubisGodmode.Parent = ExtrasScroll
+AnubisGodmode.BackgroundColor3 = Color3.new(0, 0, 0)
+AnubisGodmode.Position = UDim2.new(0, 0, 0, 30.25)
+AnubisGodmode.Size = UDim2.new(0, 128, 0, 30.25)
+AnubisGodmode.Font = Enum.Font.SourceSans
+AnubisGodmode.Text = "AnubisGodmode"
+AnubisGodmode.TextColor3 = Color3.new(1, 1, 1)
+AnubisGodmode.TextSize = 14
+
+InstantPossesion.Name = "InstantPossesion"
+InstantPossesion.Parent = ExtrasScroll
+InstantPossesion.BackgroundColor3 = Color3.new(0, 0, 0)
+InstantPossesion.Position = UDim2.new(0, 0, 0, 60.5)
+InstantPossesion.Size = UDim2.new(0, 128, 0, 30.25)
+InstantPossesion.Font = Enum.Font.SourceSans
+InstantPossesion.Text = "InstantPossesion"
+InstantPossesion.TextColor3 = Color3.new(1, 1, 1)
+InstantPossesion.TextSize = 14
+
+MoodyBluesExtras.Name = "MoodyBluesExtras"
+MoodyBluesExtras.Parent = ExtrasScroll
+MoodyBluesExtras.BackgroundColor3 = Color3.new(0, 0, 0)
+MoodyBluesExtras.Position = UDim2.new(0, 0, 0, 90.75)
+MoodyBluesExtras.Size = UDim2.new(0, 128, 0, 30.25)
+MoodyBluesExtras.Font = Enum.Font.SourceSans
+MoodyBluesExtras.Text = "MoodyBlues -"
+MoodyBluesExtras.TextColor3 = Color3.new(1, 1, 1)
+MoodyBluesExtras.TextSize = 14
+
+CloneAll.Name = "CloneAll"
+CloneAll.Parent = ExtrasScroll
+CloneAll.BackgroundColor3 = Color3.new(0, 0, 0)
+CloneAll.Position = UDim2.new(0, 0, 0, 121)
+CloneAll.Size = UDim2.new(0, 128, 0, 30.25)
+CloneAll.Font = Enum.Font.SourceSans
+CloneAll.Text = "CloneAll"
+CloneAll.TextColor3 = Color3.new(1, 1, 1)
+CloneAll.TextSize = 14
+
+MadeInHeavenExtras.Name = "MadeInHeavenExtras"
+MadeInHeavenExtras.Parent = ExtrasScroll
+MadeInHeavenExtras.BackgroundColor3 = Color3.new(0, 0, 0)
+MadeInHeavenExtras.Position = UDim2.new(0, 0, 0, 151.25)
+MadeInHeavenExtras.Size = UDim2.new(0, 128, 0, 30.25)
+MadeInHeavenExtras.Font = Enum.Font.SourceSans
+MadeInHeavenExtras.Text = "MadeInHeaven -"
+MadeInHeavenExtras.TextColor3 = Color3.new(1, 1, 1)
+MadeInHeavenExtras.TextSize = 14
+
+TimeAcel.Name = "TimeAcel"
+TimeAcel.Parent = ExtrasScroll
+TimeAcel.BackgroundColor3 = Color3.new(0, 0, 0)
+TimeAcel.Position = UDim2.new(0, 0, 0, 181.5)
+TimeAcel.Size = UDim2.new(0, 128, 0, 30.25)
+TimeAcel.Font = Enum.Font.SourceSans
+TimeAcel.Text = "TimeAcel"
+TimeAcel.TextColor3 = Color3.new(1, 1, 1)
+TimeAcel.TextSize = 14
+
+UniReset.Name = "UniReset"
+UniReset.Parent = ExtrasScroll
+UniReset.BackgroundColor3 = Color3.new(0, 0, 0)
+UniReset.Position = UDim2.new(0, 0, 0, 211.75)
+UniReset.Size = UDim2.new(0, 128, 0, 30.25)
+UniReset.Font = Enum.Font.SourceSans
+UniReset.Text = "UniReset"
+UniReset.TextColor3 = Color3.new(1, 1, 1)
+UniReset.TextSize = 14
+
+TheHandExtras.Name = "TheHandExtras"
+TheHandExtras.Parent = ExtrasScroll
+TheHandExtras.BackgroundColor3 = Color3.new(0, 0, 0)
+TheHandExtras.Position = UDim2.new(0, 0, 0, 242)
+TheHandExtras.Size = UDim2.new(0, 128, 0, 30.25)
+TheHandExtras.Font = Enum.Font.SourceSans
+TheHandExtras.Text = "TheHand -"
+TheHandExtras.TextColor3 = Color3.new(1, 1, 1)
+TheHandExtras.TextSize = 14
+
+PullOthers.Name = "PullOthers"
+PullOthers.Parent = ExtrasScroll
+PullOthers.BackgroundColor3 = Color3.new(0, 0, 0)
+PullOthers.Position = UDim2.new(0, 0, 0, 272.25)
+PullOthers.Size = UDim2.new(0, 128, 0, 30.25)
+PullOthers.Font = Enum.Font.SourceSans
+PullOthers.Text = "PullOthers"
+PullOthers.TextColor3 = Color3.new(1, 1, 1)
+PullOthers.TextSize = 14
+
+PullSelf.Name = "PullSelf"
+PullSelf.Parent = ExtrasScroll
+PullSelf.BackgroundColor3 = Color3.new(0, 0, 0)
+PullSelf.Position = UDim2.new(0, 0, 0, 302.5)
+PullSelf.Size = UDim2.new(0, 128, 0, 30.25)
+PullSelf.Font = Enum.Font.SourceSans
+PullSelf.Text = "PullSelf"
+PullSelf.TextColor3 = Color3.new(1, 1, 1)
+PullSelf.TextSize = 14
+
+TheWorldExtras.Name = "TheWorldExtras"
+TheWorldExtras.Parent = ExtrasScroll
+TheWorldExtras.BackgroundColor3 = Color3.new(0, 0, 0)
+TheWorldExtras.Position = UDim2.new(0, 0, 0, 332.75)
+TheWorldExtras.Size = UDim2.new(0, 128, 0, 30.25)
+TheWorldExtras.Font = Enum.Font.SourceSans
+TheWorldExtras.Text = "TheWorld -"
+TheWorldExtras.TextColor3 = Color3.new(1, 1, 1)
+TheWorldExtras.TextSize = 14
+
+TimeStop.Name = "TimeStop"
+TimeStop.Parent = ExtrasScroll
+TimeStop.BackgroundColor3 = Color3.new(0, 0, 0)
+TimeStop.Position = UDim2.new(0, 0, 0, 363)
+TimeStop.Size = UDim2.new(0, 128, 0, 30.25)
+TimeStop.Font = Enum.Font.SourceSans
+TimeStop.Text = "TimeStop"
+TimeStop.TextColor3 = Color3.new(1, 1, 1)
+TimeStop.TextSize = 14
+
+MrPresidentExtras.Name = "MrPresidentExtras"
+MrPresidentExtras.Parent = ExtrasScroll
+MrPresidentExtras.BackgroundColor3 = Color3.new(0, 0, 0)
+MrPresidentExtras.Position = UDim2.new(0, 0, 0, 393.25)
+MrPresidentExtras.Size = UDim2.new(0, 128, 0, 30.25)
+MrPresidentExtras.Font = Enum.Font.SourceSans
+MrPresidentExtras.Text = "MrPresident -"
+MrPresidentExtras.TextColor3 = Color3.new(1, 1, 1)
+MrPresidentExtras.TextSize = 14
+
+ForceRoomAll.Name = "ForceRoomAll"
+ForceRoomAll.Parent = ExtrasScroll
+ForceRoomAll.BackgroundColor3 = Color3.new(0, 0, 0)
+ForceRoomAll.Position = UDim2.new(0, 0, 0, 423.5)
+ForceRoomAll.Size = UDim2.new(0, 128, 0, 30.25)
+ForceRoomAll.Font = Enum.Font.SourceSans
+ForceRoomAll.Text = "ForceRoomAll"
+ForceRoomAll.TextColor3 = Color3.new(1, 1, 1)
+ForceRoomAll.TextSize = 14
+
+CloseExtras.Name = "CloseExtras"
+CloseExtras.Parent = ExtrasGui
+CloseExtras.BackgroundColor3 = Color3.new(0, 0, 0)
+CloseExtras.Position = UDim2.new(0.89, 0, 0, 1)
+CloseExtras.Size = UDim2.new(0, 13, 0, 13)
+CloseExtras.Font = Enum.Font.SourceSans
+CloseExtras.Text = "X"
+CloseExtras.TextColor3 = Color3.new(255, 0, 0)
+CloseExtras.TextSize = 14
+
+Info.Name = "Info"
+Info.Parent = Frame
+Info.BackgroundColor3 = Color3.new(0, 0, 0)
+Info.Position = UDim2.new(0, 1, 0.724737167, 10)
+Info.Size = UDim2.new(0, 67, 0, 60.5)
+Info.Font = Enum.Font.SourceSans
+Info.Text = "Info"
+Info.TextColor3 = Color3.new(1, 1, 1)
+Info.TextSize = 14
+
+InfoGui.Name = "InfoGui"
+InfoGui.Parent = Frame
+InfoGui.BackgroundColor3 = Color3.new(0, 0, 0)
+InfoGui.Position = UDim2.new(1.5, 0, - 1.5, 0)
+InfoGui.Size = UDim2.new(0, 765, 0, 549)
+InfoGui.Visible = false
+InfoGui.Font = Enum.Font.SourceSans
+InfoGui.Text = " "
+InfoGui.TextColor3 = Color3.new(0, 0, 0)
+InfoGui.TextSize = 14
+
+TargetGuiInfo.Name = "TargetGuiInfo"
+TargetGuiInfo.Parent = InfoGui
+TargetGuiInfo.BackgroundColor3 = Color3.new(0, 0, 0)
+TargetGuiInfo.Size = UDim2.new(0, 765, 0, 50)
+TargetGuiInfo.Font = Enum.Font.SourceSans
+TargetGuiInfo.Text = "Put the Targets Name in the box on the Main UI the one inside target gui is for frame target."
+TargetGuiInfo.TextColor3 = Color3.new(1, 1, 1)
+TargetGuiInfo.TextSize = 14
+
+ChooseStandInfo.Name = "ChooseStandInfo"
+ChooseStandInfo.Parent = InfoGui
+ChooseStandInfo.BackgroundColor3 = Color3.new(0, 0, 0)
+ChooseStandInfo.Position = UDim2.new(0, 0, 0.0910746828, 0)
+ChooseStandInfo.Size = UDim2.new(0, 765, 0, 50)
+ChooseStandInfo.Font = Enum.Font.SourceSans
+ChooseStandInfo.Text = "Choose Stand Merely Gives You The Chosen Stands Moveset."
+ChooseStandInfo.TextColor3 = Color3.new(1, 1, 1)
+ChooseStandInfo.TextSize = 14
+
+CreeperInfo.Name = "CreeperInfo"
+CreeperInfo.Parent = InfoGui
+CreeperInfo.BackgroundColor3 = Color3.new(0, 0, 0)
+CreeperInfo.Position = UDim2.new(0, 0, 0.182149351, 0)
+CreeperInfo.Size = UDim2.new(0, 765, 0, 50)
+CreeperInfo.Font = Enum.Font.SourceSans
+CreeperInfo.Text = "Press P to explode as a creeper"
+CreeperInfo.TextColor3 = Color3.new(1, 1, 1)
+CreeperInfo.TextSize = 14
+
+GodmodeInfo.Name = "GodmodeInfo"
+GodmodeInfo.Parent = InfoGui
+GodmodeInfo.BackgroundColor3 = Color3.new(0, 0, 0)
+GodmodeInfo.Position = UDim2.new(0, 0, 0.273224026, 0)
+GodmodeInfo.Size = UDim2.new(0, 765, 0, 50)
+GodmodeInfo.Font = Enum.Font.SourceSans
+GodmodeInfo.Text = "Made In Heaven Universe Reset Will Kill You If Your Godded Unless You Have Some Sort Of Damage Reduction"
+GodmodeInfo.TextColor3 = Color3.new(1, 1, 1)
+GodmodeInfo.TextSize = 14
+
+ChooseStandInfo2.Name = "ChooseStandInfo2"
+ChooseStandInfo2.Parent = InfoGui
+ChooseStandInfo2.BackgroundColor3 = Color3.new(0, 0, 0)
+ChooseStandInfo2.Position = UDim2.new(0, 0, 0.364298701, 0)
+ChooseStandInfo2.Size = UDim2.new(0, 765, 0, 50)
+ChooseStandInfo2.Font = Enum.Font.SourceSans
+ChooseStandInfo2.Text = "Choose Stand SSB is broken sorry"
+ChooseStandInfo2.TextColor3 = Color3.new(1, 1, 1)
+ChooseStandInfo2.TextSize = 14
+
+CustomStandInfo.Name = "CustomStandInfo"
+CustomStandInfo.Parent = InfoGui
+CustomStandInfo.BackgroundColor3 = Color3.new(0, 0, 0)
+CustomStandInfo.Position = UDim2.new(0, 0, 0.455373377, 0)
+CustomStandInfo.Size = UDim2.new(0, 765, 0, 50)
+CustomStandInfo.Font = Enum.Font.SourceSans
+CustomStandInfo.Text = "Spamming Custom Stand Moves May Lag the Server."
+CustomStandInfo.TextColor3 = Color3.new(1, 1, 1)
+CustomStandInfo.TextSize = 14
+
+InvisibleInfo.Name = "InvisibleInfo"
+InvisibleInfo.Parent = InfoGui
+InvisibleInfo.BackgroundColor3 = Color3.new(0, 0, 0)
+InvisibleInfo.Position = UDim2.new(0, 0, 0.546448112, 0)
+InvisibleInfo.Size = UDim2.new(0, 765, 0, 50)
+InvisibleInfo.Font = Enum.Font.SourceSans
+InvisibleInfo.Text = "If you have worthiness you can be seen if your using invisible same with having a blessing or ulf"
+InvisibleInfo.TextColor3 = Color3.new(1, 1, 1)
+InvisibleInfo.TextSize = 14
+
+CloseInfo.Name = "CloseInfo"
+CloseInfo.Parent = InfoGui
+CloseInfo.BackgroundColor3 = Color3.new(1, 1, 1)
+CloseInfo.Position = UDim2.new(0.977777779, 0, 0, 0)
+CloseInfo.Size = UDim2.new(0, 17, 0, 16)
+CloseInfo.Font = Enum.Font.SourceSans
+CloseInfo.Text = "X"
+CloseInfo.TextColor3 = Color3.new(1, 0, 0.0156863)
+CloseInfo.TextSize = 14
+
+CrashServerInfo.Name = "CrashServerInfo"
+CrashServerInfo.Parent = InfoGui
+CrashServerInfo.BackgroundColor3 = Color3.new(0, 0, 0)
+CrashServerInfo.Position = UDim2.new(0, 0, 0.637522817, 0)
+CrashServerInfo.Size = UDim2.new(0, 765, 0, 50)
+CrashServerInfo.Font = Enum.Font.SourceSans
+CrashServerInfo.Text = "CrashServer just lags the server alot to the point where its unplayable and in about 5 mins you will"
+CrashServerInfo.TextColor3 = Color3.new(1, 1, 1)
+CrashServerInfo.TextSize = 14
+
+StealMoneyInfo.Name = "StealMoneyInfo"
+StealMoneyInfo.Parent = InfoGui
+StealMoneyInfo.BackgroundColor3 = Color3.new(0, 0, 0)
+StealMoneyInfo.Position = UDim2.new(0, 0, 0.728597522, 0)
+StealMoneyInfo.Size = UDim2.new(0, 765, 0, 50)
+StealMoneyInfo.Font = Enum.Font.SourceSans
+StealMoneyInfo.Text = "Steal Money will take the targets money until its gone, they leave or you die when they are out of money only $ will fly out of them"
+StealMoneyInfo.TextColor3 = Color3.new(1, 1, 1)
+StealMoneyInfo.TextSize = 14
+
+DmInfo.Name = "DmInfo"
+DmInfo.Parent = InfoGui
+DmInfo.BackgroundColor3 = Color3.new(0, 0, 0)
+DmInfo.Position = UDim2.new(0, 0, 0.905282438, 0)
+DmInfo.Size = UDim2.new(0, 765, 0, 50)
+DmInfo.Font = Enum.Font.SourceSans
+DmInfo.Text = "If you have any other questions join the discord or dm me FairyHRS#1622"
+DmInfo.TextColor3 = Color3.new(1, 1, 1)
+DmInfo.TextSize = 14
+
+ExtraInfo.Name = "ExtraInfo"
+ExtraInfo.Parent = InfoGui
+ExtraInfo.BackgroundColor3 = Color3.new(0, 0, 0)
+ExtraInfo.Position = UDim2.new(0, 0, 0.817850709, 0)
+ExtraInfo.Size = UDim2.new(0, 765, 0, 49)
+ExtraInfo.Font = Enum.Font.SourceSans
+ExtraInfo.Text = "The buttons in Extras will only work if you have the specific stand that the button is under"
+ExtraInfo.TextColor3 = Color3.new(1, 1, 1)
+ExtraInfo.TextSize = 14
+
+Damage.Name = "Damage"
+Damage.Parent = Frame
+Damage.BackgroundColor3 = Color3.new(0, 0, 0)
+Damage.Position = UDim2.new(0.26, 0, 0.876033068, 1)
+Damage.Size = UDim2.new(0, 128, 0, 30.25)
+Damage.Font = Enum.Font.SourceSans
+Damage.Text = "ScriptDamage"
+Damage.TextColor3 = Color3.new(0.5, 0.5, 0.5)
+Damage.TextSize = 14
+
+ChooseStand.Name = "ChooseStand"
+ChooseStand.Parent = Frame
+ChooseStand.BackgroundColor3 = Color3.new(0, 0, 0)
+ChooseStand.Position = UDim2.new(0.744, 0, 0.724737167, 10)
+ChooseStand.Size = UDim2.new(0, 67, 0, 60.5)
+ChooseStand.Font = Enum.Font.SourceSans
+ChooseStand.Text = "ChooseStand"
+ChooseStand.TextColor3 = Color3.new(1, 1, 1)
+ChooseStand.TextSize = 13
+ChooseStand.Active = true
+
+ChooseStandGui.Name = "ChooseStandGui"
+ChooseStandGui.Parent = ChooseStand
+ChooseStandGui.BackgroundColor3 = Color3.new(1, 1, 1)
+ChooseStandGui.BorderColor3 = Color3.new(0.4, 0, 0.6)
+ChooseStandGui.BorderSizePixel = 2
+ChooseStandGui.Position = UDim2.new(1.46, 0, 0, -481)
+ChooseStandGui.Size = UDim2.new(0, 130, 0, 257)
+ChooseStandGui.Visible = false
+ChooseStandGui.Active = true
+ChooseStandGui.Draggable = true
+
+ChooseStandGuiLabel.Parent = ChooseStandGui
+ChooseStandGuiLabel.Position = UDim2.new(0, 65, 0, 7)
+ChooseStandGuiLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+ChooseStandGuiLabel.BackgroundTransparency = 1
+ChooseStandGuiLabel.Font = Enum.Font.SourceSans
+ChooseStandGuiLabel.Text = "ChooseStandGui"
+ChooseStandGuiLabel.TextColor3 = Color3.new(0, 0, 0)
+ChooseStandGuiLabel.TextSize = 14
+
+Scroll.Name = "Scroll"
+Scroll.Parent = ChooseStandGui
+Scroll.BackgroundColor3 = Color3.new(0, 0, 0)
+Scroll.BackgroundTransparency = 0
+Scroll.Position = UDim2.new(0, 1, 0, 15)
+Scroll.Size = UDim2.new(0, 128, 0, 241)
+Scroll.CanvasSize = UDim2.new(0, 128, 0, 484)
+Scroll.ScrollBarThickness = 2
+Scroll.Active = true
+
+StandChanger.Name = "StandChanger"
+StandChanger.Parent = Scroll
+StandChanger.BackgroundColor3 = Color3.new(0, 0, 0)
+StandChanger.Position = UDim2.new(0, 0, 0, 0)
+StandChanger.Size = UDim2.new(0, 128, 0, 30.25)
+StandChanger.Font = Enum.Font.SourceSans
+StandChanger.Text = "StandChanger"
+StandChanger.TextColor3 = Color3.new(1, 1, 1)
+StandChanger.TextSize = 14
+
+SMP.Name = "SMP"
+SMP.Parent = Scroll
+SMP.BackgroundColor3 = Color3.new(0, 0, 0)
+SMP.Position = UDim2.new(0, 0, 0, 30.25)
+SMP.Size = UDim2.new(0, 128, 0, 30.25)
+SMP.Font = Enum.Font.SourceSans
+SMP.Text = "SMP"
+SMP.TextColor3 = Color3.new(1, 1, 1)
+SMP.TextSize = 14
+
+BallBreaker.Name = "BallBreaker"
+BallBreaker.Parent = Scroll
+BallBreaker.BackgroundColor3 = Color3.new(0, 0, 0)
+BallBreaker.Position = UDim2.new(0, 0, 0, 60.5)
+BallBreaker.Size = UDim2.new(0, 128, 0, 30.25)
+BallBreaker.Font = Enum.Font.SourceSans
+BallBreaker.Text = "BallBreaker"
+BallBreaker.TextColor3 = Color3.new(1, 1, 1)
+BallBreaker.TextSize = 14
+
+WeatherReport.Name = "WeatherReport"
+WeatherReport.Parent = Scroll
+WeatherReport.BackgroundColor3 = Color3.new(0, 0, 0)
+WeatherReport.Position = UDim2.new(0, 0, 0, 90.75)
+WeatherReport.Size = UDim2.new(0, 128, 0, 30.25)
+WeatherReport.Font = Enum.Font.SourceSans
+WeatherReport.Text = "WeatherReport"
+WeatherReport.TextColor3 = Color3.new(1, 1, 1)
+WeatherReport.TextSize = 14
+
+WhiteWedding.Name = "WhiteWedding"
+WhiteWedding.Parent = Scroll
+WhiteWedding.BackgroundColor3 = Color3.new(0, 0, 0)
+WhiteWedding.Position = UDim2.new(0, 0, 0, 121)
+WhiteWedding.Size = UDim2.new(0, 128, 0, 30.25)
+WhiteWedding.Font = Enum.Font.SourceSans
+WhiteWedding.Text = "WhiteWedding"
+WhiteWedding.TextColor3 = Color3.new(1, 1, 1)
+WhiteWedding.TextSize = 14
+
+SSB.Name = "SSB"
+SSB.Parent = Scroll
+SSB.BackgroundColor3 = Color3.new(0, 0, 0)
+SSB.Position = UDim2.new(0, 0, 0, 151.25)
+SSB.Size = UDim2.new(0, 128, 0, 30.25)
+SSB.Font = Enum.Font.SourceSans
+SSB.Text = "StarSpangledBanner"
+SSB.TextColor3 = Color3.new(1, 1, 1)
+SSB.TextSize = 14
+
+MIH.Name = "MIH"
+MIH.Parent = Scroll
+MIH.BackgroundColor3 = Color3.new(0, 0, 0)
+MIH.Position = UDim2.new(0, 0, 0, 181.5)
+MIH.Size = UDim2.new(0, 128, 0, 30.25)
+MIH.Font = Enum.Font.SourceSans
+MIH.Text = "MadeInHeaven"
+MIH.TextColor3 = Color3.new(1, 1, 1)
+MIH.TextSize = 14
+
+Osiris.Name = "Osiris"
+Osiris.Parent = Scroll
+Osiris.BackgroundColor3 = Color3.new(0, 0, 0)
+Osiris.Position = UDim2.new(0, 0, 0, 211.75)
+Osiris.Size = UDim2.new(0, 128, 0, 30.25)
+Osiris.Font = Enum.Font.SourceSans
+Osiris.Text = "Osiris"
+Osiris.TextColor3 = Color3.new(1, 1, 1)
+Osiris.TextSize = 14
+
+Sod.Name = "Sod"
+Sod.Parent = Scroll
+Sod.BackgroundColor3 = Color3.new(0, 0, 0)
+Sod.Position = UDim2.new(0, 0, 0, 242)
+Sod.Size = UDim2.new(0, 128, 0, 30.25)
+Sod.Font = Enum.Font.SourceSans
+Sod.Text = "SymphonyOfDestruction"
+Sod.TextColor3 = Color3.new(1, 1, 1)
+Sod.TextSize = 13
+
+Vampire.Name = "Vampire"
+Vampire.Parent = Scroll
+Vampire.BackgroundColor3 = Color3.new(0, 0, 0)
+Vampire.Position = UDim2.new(0, 0, 0, 272.25)
+Vampire.Size = UDim2.new(0, 128, 0, 30.25)
+Vampire.Font = Enum.Font.SourceSans
+Vampire.Text = "Vampire"
+Vampire.TextColor3 = Color3.new(1, 1, 1)
+Vampire.TextSize = 14
+
+StoneFree.Name = "StoneFree"
+StoneFree.Parent = Scroll
+StoneFree.BackgroundColor3 = Color3.new(0, 0, 0)
+StoneFree.Position = UDim2.new(0, 0, 0, 302.5)
+StoneFree.Size = UDim2.new(0, 128, 0, 30.25)
+StoneFree.Font = Enum.Font.SourceSans
+StoneFree.Text = "StoneFree"
+StoneFree.TextColor3 = Color3.new(1, 1, 1)
+StoneFree.TextSize = 14
+
+MoodyBlues.Name = "MoodyBlues"
+MoodyBlues.Parent = Scroll
+MoodyBlues.BackgroundColor3 = Color3.new(0, 0, 0)
+MoodyBlues.Position = UDim2.new(0, 0, 0, 332.75)
+MoodyBlues.Size = UDim2.new(0, 128, 0, 30.25)
+MoodyBlues.Font = Enum.Font.SourceSans
+MoodyBlues.Text = "MoodyBlues"
+MoodyBlues.TextColor3 = Color3.new(1, 1, 1)
+MoodyBlues.TextSize = 14
+
+MrPresident.Name = "MrPresident"
+MrPresident.Parent = Scroll
+MrPresident.BackgroundColor3 = Color3.new(0, 0, 0)
+MrPresident.Position = UDim2.new(0, 0, 0, 363)
+MrPresident.Size = UDim2.new(0, 128, 0, 30.25)
+MrPresident.Font = Enum.Font.SourceSans
+MrPresident.Text = "MrPresident"
+MrPresident.TextColor3 = Color3.new(1, 1, 1)
+MrPresident.TextSize = 14
+
+SoftAndWet.Name = "SoftAndWet"
+SoftAndWet.Parent = Scroll
+SoftAndWet.BackgroundColor3 = Color3.new(0, 0, 0)
+SoftAndWet.Position = UDim2.new(0, 0, 0, 393.25)
+SoftAndWet.Size = UDim2.new(0, 128, 0, 30.25)
+SoftAndWet.Font = Enum.Font.SourceSans
+SoftAndWet.Text = "SoftAndWet"
+SoftAndWet.TextColor3 = Color3.new(1, 1, 1)
+SoftAndWet.TextSize = 14
+
+PillarMan.Name = "PillarMan"
+PillarMan.Parent = Scroll
+PillarMan.BackgroundColor3 = Color3.new(0, 0, 0)
+PillarMan.Position = UDim2.new(0, 0, 0, 423.5)
+PillarMan.Size = UDim2.new(0, 128, 0, 30.25)
+PillarMan.Font = Enum.Font.SourceSans
+PillarMan.Text = "PillarMan"
+PillarMan.TextColor3 = Color3.new(1, 1, 1)
+PillarMan.TextSize = 14
+
+HighwayStar.Name = "HighwayStar"
+HighwayStar.Parent = Scroll
+HighwayStar.BackgroundColor3 = Color3.new(0, 0, 0)
+HighwayStar.Position = UDim2.new(0, 0, 0, 453.75)
+HighwayStar.Size = UDim2.new(0, 128, 0, 30.25)
+HighwayStar.Font = Enum.Font.SourceSans
+HighwayStar.Text = "HighwayStar"
+HighwayStar.TextColor3 = Color3.new(1, 1, 1)
+HighwayStar.TextSize = 14
+
+CloseChooseStand.Name = "CloseChooseStand"
+CloseChooseStand.Parent = ChooseStandGui
+CloseChooseStand.BackgroundColor3 = Color3.new(0, 0, 0)
+CloseChooseStand.Position = UDim2.new(0.89, 0, 0, 1)
+CloseChooseStand.Size = UDim2.new(0, 13, 0, 13)
+CloseChooseStand.Font = Enum.Font.SourceSans
+CloseChooseStand.Text = "X"
+CloseChooseStand.TextColor3 = Color3.new(255, 0, 0)
+CloseChooseStand.TextSize = 14
+
+OpenGuiFrame.Name = "OpenGuiFrame"
+OpenGuiFrame.Parent = PJJT
+OpenGuiFrame.BackgroundColor3 = Color3.new(255, 255, 255)
+OpenGuiFrame.BorderColor3 = Color3.new(1, 1, 0.2)
+OpenGuiFrame.BorderSizePixel = 2
+OpenGuiFrame.Position = UDim2.new(0.91, 0, 0.60, 0)
+OpenGuiFrame.Size = UDim2.new(0, 152, 0, 52)
+OpenGuiFrame.Active = true
+OpenGuiFrame.Draggable = true
+
+OpenGui.Name = "OpenGui"
+OpenGui.Parent = OpenGuiFrame
+OpenGui.BackgroundColor3 = Color3.new(0, 0, 0)
+OpenGui.Position = UDim2.new(0, 1, 0, 16)
+OpenGui.Size = UDim2.new(0, 150, 0, 35)
+OpenGui.Font = Enum.Font.SourceSans
+OpenGui.Text = "OpenGui            "
+OpenGui.TextColor3 = Color3.new(1, 1, 1)
+OpenGui.TextSize = 14
+
+CloseGuiFrame.Name = "CloseGuiFrame"
+CloseGuiFrame.Parent = PJJT
+CloseGuiFrame.BackgroundColor3 = Color3.new(255, 255, 255)
+CloseGuiFrame.BorderColor3 = Color3.new(1, 0.6, 0.2)
+CloseGuiFrame.BorderSizePixel = 2
+CloseGuiFrame.Position = UDim2.new(0.91, 0, 0.69, 0)
+CloseGuiFrame.Size = UDim2.new(0, 152, 0, 52)
+CloseGuiFrame.Active = true
+CloseGuiFrame.Draggable = true
+
+CloseGui.Name = "CloseGui"
+CloseGui.Parent = CloseGuiFrame
+CloseGui.BackgroundColor3 = Color3.new(0, 0, 0)
+CloseGui.Position = UDim2.new(0, 1, 0, 16)
+CloseGui.Size = UDim2.new(0, 150, 0, 35)
+CloseGui.Font = Enum.Font.SourceSans
+CloseGui.Text = "CloseGui            "
+CloseGui.TextColor3 = Color3.new(1, 1, 1)
+CloseGui.TextSize = 14
+
+CloseEverythingFrame.Name = "CloseEverythingFrame"
+CloseEverythingFrame.Parent = PJJT
+CloseEverythingFrame.BackgroundColor3 = Color3.new(255, 255, 255)
+CloseEverythingFrame.BorderColor3 = Color3.new(1, 0, 0.2)
+CloseEverythingFrame.BorderSizePixel = 2
+CloseEverythingFrame.Position = UDim2.new(0.91, 0, 0.78, 0)
+CloseEverythingFrame.Size = UDim2.new(0, 152, 0, 52)
+CloseEverythingFrame.Active = true
+CloseEverythingFrame.Draggable = true
+
+CloseEverything.Name = "CloseEverything"
+CloseEverything.Parent = CloseEverythingFrame
+CloseEverything.BackgroundColor3 = Color3.new(0, 0, 0)
+CloseEverything.Position = UDim2.new(0, 1, 0, 16)
+CloseEverything.Size = UDim2.new(0, 150, 0, 35)
+CloseEverything.Font = Enum.Font.SourceSans
+CloseEverything.Text = "CloseEverything            "
+CloseEverything.TextColor3 = Color3.new(1, 1, 1)
+CloseEverything.TextSize = 14
+
+--Scripts:
+
+OpenGui.MouseButton1Click:connect(function()
+Frame.Visible = true
+end)
+
+CloseGui.MouseButton1Click:connect(function()
+Frame.Visible = false
+end)
+
+CloseEverything.MouseButton1Click:connect(function()
+PJJT:Destroy()
+end)
+
+CloseExtras.MouseButton1Click:connect(function()
+ExtrasGui.Visible = false
+end)
+ 
+All.MouseButton1Click:connect(function()
+AllGui.Visible = true
+end)
+ 
+CloseAll.MouseButton1Click:connect(function()
+AllGui.Visible = false
+end)
+ 
+Self.MouseButton1Click:connect(function()
+SelfGui.Visible = true
+end)
+ 
+CloseSelf.MouseButton1Click:connect(function()
+SelfGui.Visible = false
+end)
+
+Target.MouseButton1Click:connect(function()
+TargetGui.Visible = true
+end)
+ 
+CloseTarget.MouseButton1Click:connect(function()
+TargetGui.Visible = false
+end)
+
+Shop.MouseButton1Click:connect(function()
+ShopGui.Visible = true
+end)
+
+Morphs.MouseButton1Click:connect(function()
+MorphsGui.Visible = true
+end)
+
+
+StandArrow.MouseButton1Click:Connect(function()
+    local A_1 = "StandArrow"
+    local Event = game:GetService("ReplicatedStorage").Logic.giveitem
+    Event:FireServer(A_1)
+end)
+
+Rokakaka.MouseButton1Click:Connect(function()
+    local A_1 = "RokakakaFruit"
+    local Event = game:GetService("ReplicatedStorage").Logic.giveitem
+    Event:FireServer(A_1)
+end)
+
+VampMask.MouseButton1Click:Connect(function()
+    local A_1 = "VampireMask"
+    local Event = game:GetService("ReplicatedStorage").Logic.giveitem
+    Event:FireServer(A_1)
+end)
+
+CloseShop.MouseButton1Click:connect(function()
+ShopGui.Visible = false
+end)
+
+CCTP.MouseButton1Click:Connect(function()
+local Plr = game:GetService("Players").LocalPlayer
+
+local Mouse = Plr:GetMouse()
+
+Mouse.Button1Down:connect(function()
+if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then return end
+if not Mouse.Target then return end
+Plr.Character:MoveTo(Mouse.Hit.p)
+end)
+end)
+
+Info.MouseButton1Click:connect(function()
+InfoGui.Visible = true
+end)
+
+Morphs.MouseButton1Click:connect(function()
+MorphsGui.Visible = true
+end)
+
+Extras.MouseButton1Click:connect(function()
+ExtrasGui.Visible = true
+end)
+
+CloseInfo.MouseButton1Click:connect(function()
+InfoGui.Visible = false
+end)
+
+ChooseStand.MouseButton1Click:connect(function()
+ChooseStandGui.Visible = true
+end)
+
+CloseChooseStand.MouseButton1Click:connect(function()
+ChooseStandGui.Visible = false
+end)
+
+CloseMorphs.MouseButton1Click:connect(function()
+MorphsGui.Visible = false
+end)
+
+StabAll.MouseButton1Click:connect(function()
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = 107
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 10000
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[v.Name].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+end)
+
+TeleportAll.MouseButton1Click:connect(function()
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = 24
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 0.1
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[v.Name].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+end)
+ 
+SlowAll.MouseButton1Click:connect(function()
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = 28
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 0.1
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[v.Name].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+end)
+
+FreezeAll.MouseButton1Click:connect(function()
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = 5
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 0.1
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[v.Name].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+end)
+ 
+ 
+BurnAll.MouseButton1Click:connect(function()
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = 104
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = Damage.Text
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[v.Name].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+ 
+ 
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = 21
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = Damage.Text
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[v.Name].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+end)
+
+AnnoyAll.MouseButton1Click:connect(function()
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = 97
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 0.1
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[v.Name].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+ 
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = 95
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 0.1
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[v.Name].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+ 
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = 96
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 0.1
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[v.Name].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+end)
+ 
+GodAll.MouseButton1Click:connect(function()
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = 0
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = -500000000
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[v.Name].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+end)
+ 
+FlingAll.MouseButton1Click:connect(function()
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = 39
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 0
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[v.Name].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+end)
+
+FreezeFlingAll.MouseButton1Click:connect(function()
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = 13
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 0.1
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[v.Name].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+end)
+
+CrashServer.MouseButton1Click:connect(function()
+local stonk = game.Players.LocalPlayer.Name
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+end)
+
+StandStorage.MouseButton1Click:connect(function()
+game.Players.LocalPlayer.PlayerGui.standstore.Enabled = true
+end)
+
+OpStand.MouseButton1Click:connect(function()
+game.Players.LocalPlayer.Power.Value = 50000
+game.Players.LocalPlayer.Speed.Value = 3
+game.Players.LocalPlayer.Special.Value = 50000
+game.Players.LocalPlayer.Character.Humanoid.Walkspeed = 100
+local A_1 = 0
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = -500000
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game.Players.LocalPlayer.Character.Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end)
+
+GodSelf.MouseButton1Click:connect(function()
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = 0
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = -50000000000000
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game.Players.LocalPlayer.Character.Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+end)
+
+
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+bind = "f"
+mouse.KeyDown:connect(function(key)
+if key == bind then
+local A_1 = 108
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 5000
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+
+local A_7 = false
+print(mouse.Target)
+print(mouse.Target.Parent.Name)
+if mouse.Target.Name == "Torso" or mouse.Target.Name == "HumanoidRootPart" or mouse.Target.Name == "Left Arm" or mouse.Target.Name == "Right Arm" or mouse.Target.Name == "Left Leg" or mouse.Target.Name == "Right Leg" or mouse.Target.Name == "Head" then
+    local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+    local A_6 = mouse.Target.Parent.Humanoid -- add name if this dosent work
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+    end
+end
+end)
+
+CustomStand.MouseButton1Click:connect(function()
+game.Players.LocalPlayer.Backpack.ClientHandler:Destroy()
+end)
+
+CustomStand.MouseButton1Click:connect(function()
+if game.workspace.timestopped.Value == true then 
+game.workspace.timestopped.Value = false
+end
+end)
+
+CustomStand.MouseButton1Click:connect(function()
+if game.Players.LocalPlayer.Character.Humanoid.Health <= 0 then
+wait(10)
+game.Players.LocalPlayer.Backpack.ClientHandler:Destroy()
+end
+end)
+
+CustomStand.MouseButton1Click:connect(function()
+local stonk = game.Players.LocalPlayer.Name
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+bindy = "y"
+binds = "v"
+bind12 = "b"
+bind11 = "c"
+bind10 = "x"
+bind8 = "z"
+bind7 = "h"
+bind6 = "r"
+bind4 = "t"
+bind3 = "e"
+bind1 = "q"
+mouse.KeyDown:connect(function(key)
+if key == bindy then
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = 8
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 8000085101
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[stonk].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+end
+end)
+mouse.KeyDown:connect(function(key)
+if key == bind1 then
+local target = game.Players.LocalPlayer:GetMouse().Hit.p
+local A_1 = CFrame.new(target)
+local A_2 = 150000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.lightningstrike:FireServer(A_1, A_2, A_3)
+end
+end)
+mouse.KeyDown:connect(function(key)
+if key == bind3 then
+local target = game.Players.LocalPlayer:GetMouse().Hit.p
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.dioxygen:FireServer(A_1, A_2, A_3)
+end
+end)
+mouse.KeyDown:connect(function(key)
+if key == bind4 then
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.photoprison:FireServer(A_1, A_2, A_3)
+end
+end)
+mouse.KeyDown:connect(function(key)
+if key == bind6 then
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 200000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.bubblebeam:FireServer(A_1, A_2, A_3)
+end
+end)
+mouse.KeyDown:connect(function(key)
+if key == bind7 then
+local target = game.Players.LocalPlayer:GetMouse().Hit.p
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.radiusfreeze:FireServer(A_1, A_2, A_3)
+end
+end)
+mouse.KeyDown:connect(function(key)
+if key == bind8 then
+local target = game.Players.LocalPlayer:GetMouse().Hit.p
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.dazzlekiss:FireServer(A_1, A_2, A_3)
+end
+end)
+mouse.KeyDown:connect(function(key)
+if key == bind10 then
+local target = game.Players.LocalPlayer:GetMouse().Hit.p
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.stringslicer:FireServer(A_1, A_2, A_3)
+end
+end)
+mouse.KeyDown:connect(function(key)
+if key == bind11 then
+local target = game.Players.LocalPlayer:GetMouse().Hit.p
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[stonk].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.tentacleswing:FireServer(A_1, A_2, A_3)
+end
+end)
+mouse.KeyDown:connect(function(key)
+if key == binds then
+target = "LocalPlayer"
+damage = 5000000
+game:GetService("ReplicatedStorage").Logic.hitbox:InvokeServer(65, game.Players.LocalPlayer.Character["Right Arm"], game.Players.LocalPlayer.Character["Right Arm"].CFrame, damage, game.Players.LocalPlayer.Character.Torso.voiceline, game.Players[target].Character.Humanoid)
+end
+end)
+mouse.KeyDown:connect(function(key)
+if key == bind12 then
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+end
+end)
+end)
+
+
+TimestopMovement.MouseButton1Click:connect(function()
+game.workspace.timestopped.Value = false
+end)
+
+Killaura.MouseButton1Click:connect(function()
+local poop = game.Players.LocalPlayer.Name
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+for count = 1 , 100000000000 , 1 do
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 1000000
+local A_3 = game:GetService("Workspace")[poop].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.lightningstrike:FireServer(A_1, A_2, A_3)
+wait(0.4)
+end
+end)
+
+
+Invisible.MouseButton1Click:connect(function()
+for i, v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+game.ReplicatedStorage.Logic.misc:FireServer(3,v,8)
+end
+end)
+
+FrameTarget.MouseButton1Click:connect(function()
+local apple = TargetName.Text
+local banana = YourName.Text
+print("playerlog: from - "  .. apple .. " , to - "  .. banana .. " , amount - 110000000")
+wait(10)
+print("playerlog: from - "  .. apple .. " , to - "  .. banana .. " , amount - 110000000")
+wait(10)
+print("playerlog: from - "  .. apple .. " , to - "  .. banana .. " , amount - 110000000")
+wait(10)
+print("playerlog: from - "  .. apple .. " , to - "  .. banana .. " , amount - 110000000")
+wait(10)
+print("playerlog: from - "  .. apple .. " , to - "  .. banana .. " , amount - 110000000")
+wait(10)
+print("playerlog: from - "  .. apple .. " , to - "  .. banana .. " , amount - 110000000")
+end)
+
+StabTarget.MouseButton1Click:connect(function()
+local A_1 = 107
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 1
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[Name.Text].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end) 
+
+GodTarget.MouseButton1Click:connect(function()
+local A_1 = 0
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = -50000000000
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[Name.Text].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end)
+
+AnnoyTarget.MouseButton1Click:connect(function()
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = 97
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 0.1
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[Name.Text].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = 95
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 0.1
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[Name.Text].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = 96
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 0.1
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[Name.Text].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+end)
+
+SlowTarget.MouseButton1Click:connect(function()
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = 28
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 0.1
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[Name.Text].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+end)
+
+BurnTarget.MouseButton1Click:connect(function()
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = 104
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = Damage.Text
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[Name.Text].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = 21
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = Damage.Text
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[Name.Text].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+end)
+
+TeleportTarget.MouseButton1Click:connect(function()
+local A_1 = 24
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 0.1
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[Name.Text].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end)
+
+FreezeTarget.MouseButton1Click:connect(function()
+local A_1 = 5
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = Damage.Text
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[Name.Text].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end)
+
+FlingTarget.MouseButton1Click:connect(function()
+local A_1 = 92
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 0
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[Name.Text].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+local A_1 = 92
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 0
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[Name.Text].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+local A_1 = 92
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 0
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[Name.Text].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+local A_1 = 92
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 0
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[Name.Text].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+local A_1 = 92
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 0
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[Name.Text].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+local A_1 = 92
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 0
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[Name.Text].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end)
+
+FreezeFling.MouseButton1Click:connect(function()
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = 13
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 0.1
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+local A_6 = game:GetService("Workspace")[Name.Text].Humanoid
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+end)
+
+PrisonTarget.MouseButton1Click:connect(function()
+local poop = game.Players.LocalPlayer.Name
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+for count = 1 , 10000000000000 , 1 do
+for i,v in pairs(game.Players:GetChildren()) do
+local all = game.Players:GetChildren()
+local target = game:GetService("Players")[Name.Text].Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 0
+local A_3 = game:GetService("Workspace")[poop].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.photoprison:FireServer(A_1, A_2, A_3)
+wait(0.5)
+end
+end
+end)
+
+UniReset.MouseButton1Click:connect(function()
+local player = game.Players.LocalPlayer
+local A_1 = "dfslk9hgi3jasd0i2eihiasficx93"
+local Event = game:GetService("ReplicatedStorage").Specials.universereset
+Event:FireServer(A_1)
+end)
+
+ForceRoomAll.MouseButton1Click:connect(function()
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = game:GetService("Players")[v.Name]
+local Event = game:GetService("ReplicatedStorage").Specials.roomforce
+Event:FireServer(A_1)
+end
+end)
+
+TimeAcel.MouseButton1Click:connect(function()
+local poop = game.Players.LocalPlayer.Name
+local player = game.Players.LocalPlayer
+local A_1 = 300
+local A_2 = game:GetService("Workspace")[poop].Humanoid
+local A_3 = "zxc02kl;asdmgmj29s"
+local Event = game:GetService("ReplicatedStorage").Specials.timeacceleration
+Event:FireServer(A_1, A_2, A_3)
+end)
+
+TimeStop.MouseButton1Click:connect(function()
+local poop = game.Players.LocalPlayer.Name
+local player = game.Players.LocalPlayer
+local A_6 = 500
+local A_5 = game:GetService("Workspace")[poop]
+local A_1 = game:GetService("Workspace")[poop].Torso.specialsound
+local A_2 = game:GetService("Workspace")[poop].Torso.specialsound2
+local A_3 = 0
+local A_4 = "asdj92udu92hu9uasud9u2df"
+game:GetService("ReplicatedStorage").Specials.timestop:FireServer(A_6, A_5, A_1, A_2, A_3, A_4)
+end)
+
+AnnoyTargetV2.MouseButton1Click:connect(function()
+local poop = game.Players.LocalPlayer.Name
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+for count = 1 , 10000000000000 , 1 do
+for i,v in pairs(game.Players:GetChildren()) do
+local all = game.Players:GetChildren()
+local target = game:GetService("Players")[Name.Text].Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[poop].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.dazzlekiss:FireServer(A_1, A_2, A_3)
+wait(0.2)
+end
+end
+end)
+
+AnnoyAllV2.MouseButton1Click:connect(function()
+local poop = game.Players.LocalPlayer.Name
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+for count = 1 , 10000000000000 , 1 do
+for i,v in pairs(game.Players:GetChildren()) do
+local all = game.Players:GetChildren()
+local target = game:GetService("Players")[v.Name].Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 120000
+local A_3 = game:GetService("Workspace")[poop].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.dazzlekiss:FireServer(A_1, A_2, A_3)
+wait(0.2)
+end
+end
+end)
+
+AnubisGodmode.MouseButton1Click:connect(function()
+local A_1 = 47
+local A_2 = true
+local Event = game:GetService("ReplicatedStorage").Logic.misc
+Event:FireServer(A_1, A_2)
+local A_1 = 47
+local A_2 = true
+local Event = game:GetService("ReplicatedStorage").Logic.misc
+Event:FireServer(A_1, A_2)
+local A_1 = 47
+local A_2 = true
+local Event = game:GetService("ReplicatedStorage").Logic.misc
+Event:FireServer(A_1, A_2)
+end)
+
+InstantPossesion.MouseButton1Click:connect(function()
+local A_1 = 48
+local A_2 = true
+local Event = game:GetService("ReplicatedStorage").Logic.misc
+Event:FireServer(A_1, A_2)
+end)
+
+PullOthers.MouseButton1Click:connect(function()
+local Event = game:GetService("ReplicatedStorage").Specials.handpull
+Event:FireServer()
+end)
+
+PullSelf.MouseButton1Click:connect(function()
+local Event = game:GetService("ReplicatedStorage").Specials.handdash
+Event:FireServer()
+end)
+
+PrisonAll.MouseButton1Click:connect(function()
+local poop = game.Players.LocalPlayer.Name
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+for count = 1 , 10000000000000 , 1 do
+for i,v in pairs(game.Players:GetChildren()) do
+local all = game.Players:GetChildren()
+local target = game:GetService("Players")[v.Name].Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = 0
+local A_3 = game:GetService("Workspace")[poop].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.photoprison:FireServer(A_1, A_2, A_3)
+wait(0.5)
+end
+end
+end)
+
+CloneSelf.MouseButton1Click:connect(function()
+local shit = game.Players.LocalPlayer.Name
+local player = game.Players.LocalPlayer
+local target = player.Character:GetPrimaryPartCFrame().Position
+local A_1 = CFrame.new(target)
+local A_2 = game:GetService("Workspace")[shit].Torso.voiceline
+local A_3 = true
+local Event = game:GetService("ReplicatedStorage").Specials.selfclone
+Event:InvokeServer(A_1, A_2, A_3)
+end)
+
+
+
+
+NaziSalute.MouseButton1Click:connect(function()
+local poop = game.Players.LocalPlayer.Name
+function position(limb, pos, angle)
+Torso = game.Players.LocalPlayer.Character.Torso
+limb:BreakJoints()
+local bodypos = Instance.new("BodyPosition", limb)
+bodypos.MaxForce = Vector3.new(math.huge,math.huge,math.huge)
+spawn(function()
+repeat
+limb.Orientation = Torso.Orientation + angle
+bodypos.Position = Torso.Position + (Torso.CFrame.LookVector * pos.Z) + (Torso.CFrame.RightVector * pos.X) + Vector3.new(0, pos.Y, 0)
+bodypos.Parent.Position = bodypos.Position
+wait()
+until game.Players.LocalPlayer.Character.Humanoid.Health <= 0
+end)
+end 
+position(game.Players.LocalPlayer.Character["Right Arm"], Vector3.new(-1.8, 0.8, 0.8), Vector3.new(110,60,20))
+position(game.Players.LocalPlayer.Character["Left Arm"], Vector3.new(1, 0, 0.3), Vector3.new(0,-30,-40))
+position(game.Players.LocalPlayer.Character["Right Leg"], Vector3.new(-0.53, -2, 0), Vector3.new(0,0,0))
+position(game.Players.LocalPlayer.Character["Left Leg"], Vector3.new(0.53, -2, 0), Vector3.new(0,0,0))
+end)
+
+Block.MouseButton1Click:connect(function()
+local poop = game.Players.LocalPlayer.Name
+function position(limb, pos, angle)
+Torso = game.Players.LocalPlayer.Character.Torso
+limb:BreakJoints()
+local bodypos = Instance.new("BodyPosition", limb)
+bodypos.MaxForce = Vector3.new(math.huge,math.huge,math.huge)
+spawn(function()
+repeat
+limb.Orientation = Torso.Orientation + angle
+bodypos.Position = Torso.Position + (Torso.CFrame.LookVector * pos.Z) + (Torso.CFrame.RightVector * pos.X) + Vector3.new(0, pos.Y, 0)
+bodypos.Parent.Position = bodypos.Position
+wait()
+until game.Players.LocalPlayer.Character.Humanoid.Health <= 0
+end)
+end 
+position(game.Players.LocalPlayer.Character["Right Arm"], Vector3.new(0, 1.5, 0), Vector3.new(0,0,90))
+position(game.Players.LocalPlayer.Character["Left Arm"], Vector3.new(-0, 1.5, 1), Vector3.new(0,0,90))
+position(game.Players.LocalPlayer.Character["Right Leg"], Vector3.new(0.5, 0, 1), Vector3.new(0,0,0))
+position(game.Players.LocalPlayer.Character["Left Leg"], Vector3.new(-0.5, 0, 1), Vector3.new(0,0,0))
+end)
+
+Snake.MouseButton1Click:connect(function()
+function position(limb, pos, angle)
+Torso = game.Players.LocalPlayer.Character.Torso
+limb:BreakJoints()
+local bodypos = Instance.new("BodyPosition", limb)
+bodypos.MaxForce = Vector3.new(math.huge,math.huge,math.huge)
+spawn(function()
+repeat
+limb.Orientation = Torso.Orientation + angle
+bodypos.Position = Torso.Position + (Torso.CFrame.LookVector * pos.Z) + (Torso.CFrame.RightVector * pos.X) + Vector3.new(0, pos.Y, 0)
+bodypos.Parent.Position = bodypos.Position
+wait()
+until game.Players.LocalPlayer.Character.Humanoid.Health <= 0
+end)
+end 
+position(game.Players.LocalPlayer.Character["Right Arm"], Vector3.new(0, -2.5, -4.8), Vector3.new(90,0,0))
+position(game.Players.LocalPlayer.Character["Left Arm"], Vector3.new(-0, -2.5, -2.9), Vector3.new(90,0,0))
+position(game.Players.LocalPlayer.Character["Right Leg"], Vector3.new(-0, -2.5, -1), Vector3.new(90,0,0))
+position(game.Players.LocalPlayer.Character["Left Leg"], Vector3.new(-0, -2, -0), Vector3.new(0,0,0)) 
+end)
+
+
+Swastika.MouseButton1Click:connect(function()
+function position(limb, pos, angle)
+Torso = game.Players.LocalPlayer.Character.Torso
+limb:BreakJoints()
+local bodypos = Instance.new("BodyPosition", limb)
+bodypos.MaxForce = Vector3.new(math.huge,math.huge,math.huge)
+spawn(function()
+repeat
+limb.Orientation = Torso.Orientation + angle
+bodypos.Position = Torso.Position + (Torso.CFrame.LookVector * pos.Z) + (Torso.CFrame.RightVector * pos.X) + Vector3.new(0, pos.Y, 0)
+bodypos.Parent.Position = bodypos.Position
+wait()
+until game.Players.LocalPlayer.Character.Humanoid.Health <= 0
+end)
+end 
+position(game.Players.LocalPlayer.Character["Right Arm"], Vector3.new(1.5, 1.5, 0), Vector3.new(0,0,0))
+position(game.Players.LocalPlayer.Character["Left Arm"], Vector3.new(-1.5, -1.5, 0), Vector3.new(0,0,0))
+position(game.Players.LocalPlayer.Character["Right Leg"], Vector3.new(1.5, -1.5, -0), Vector3.new(0,0,-90))
+position(game.Players.LocalPlayer.Character["Left Leg"], Vector3.new(-1.5, 1.5, -0), Vector3.new(0,0,90))
+end)
+
+Cripple.MouseButton1Click:connect(function()
+function position(limb, pos, angle)
+Torso = game.Players.LocalPlayer.Character.Torso
+limb:BreakJoints()
+local bodypos = Instance.new("BodyPosition", limb)
+bodypos.MaxForce = Vector3.new(math.huge,math.huge,math.huge)
+spawn(function()
+repeat
+limb.Orientation = Torso.Orientation + angle
+bodypos.Position = Torso.Position + (Torso.CFrame.LookVector * pos.Z) + (Torso.CFrame.RightVector * pos.X) + Vector3.new(0, pos.Y, 0)
+bodypos.Parent.Position = bodypos.Position
+wait()
+until game.Players.LocalPlayer.Character.Humanoid.Health <= 0
+end)
+end 
+position(game.Players.LocalPlayer.Character["Right Arm"], Vector3.new(1.5, 100, 0), Vector3.new(0,0,0))
+position(game.Players.LocalPlayer.Character["Left Arm"], Vector3.new(-1.5, -100, 0), Vector3.new(0,0,0))
+position(game.Players.LocalPlayer.Character["Right Leg"], Vector3.new(1.5, -100, -0), Vector3.new(0,0,-90))
+position(game.Players.LocalPlayer.Character["Left Leg"], Vector3.new(-1.5, 100, -0), Vector3.new(0,0,90))
+end)
+
+
+
+SoftAndWet.MouseButton1Click:connect(function()
+local a = game.ReplicatedStorage.Stands.SoftAndWet:clone()
+a.Parent = game.Players.LocalPlayer.Backpack
+game.Players.LocalPlayer.Backpack.Osiris:Destroy()
+game.Players.LocalPlayer.Backpack.D4C:Destroy()
+game.Players.LocalPlayer.Backpack.Vampire:Destroy()
+game.Players.LocalPlayer.Backpack.Kars:Destroy()
+game.Players.LocalPlayer.Backpack.None:Destroy()
+game.Players.LocalPlayer.Backpack.Wamuu:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimsonOverHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.Spin:Destroy()
+game.Players.LocalPlayer.Backpack.Mr.President:Destroy()
+game.Players.LocalPlayer.Backpack.SoftAndWet:Destroy()
+game.Players.LocalPlayer.Backpack.GoldExperience:Destroy()
+game.Players.LocalPlayer.Backpack.HermitPurple:Destroy()
+game.Players.LocalPlayer.Backpack.StoneFree:Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld:Destroy()
+game.Players.LocalPlayer.Backpack.Pillarman:Destroy()
+game.Players.LocalPlayer.Backpack.DiverDown:Destroy()
+game.Players.LocalPlayer.Backpack.HierophantGreen:Destroy()
+game.Players.LocalPlayer.Backpack.KillerGreen:Destroy()
+game.Players.LocalPlayer.Backpack.HeyYa:Destroy()
+game.Players.LocalPlayer.Backpack.BallBreaker:Destroy()
+game.Players.LocalPlayer.Backpack.ScaryMonsters:Destroy()
+game.Players.LocalPlayer.Backpack.Anubis:Destroy()
+game.Players.LocalPlayer.Backpack.MagiciansRed:Destroy()
+game.Players.LocalPlayer.Backpack.SpiceGirl:Destroy()
+game.Players.LocalPlayer.Backpack.Cream:Destroy()
+game.Players.LocalPlayer.Backpack.HighwayStar:Destroy()
+game.Players.LocalPlayer.Backpack.CrazyDiamond:Destroy()
+game.Players.LocalPlayer.Backpack.SilverChariot:Destroy()
+game.Players.LocalPlayer.Backpack.Shotgun:Destroy()
+game.Players.LocalPlayer.Backpack.BokuNoRhythmWoKiitekure:Destroy()
+game.Players.LocalPlayer.Backpack.SmashingPumpkin:Destroy()
+game.Players.LocalPlayer.Backpack.Cyborg:Destroy()
+game.Players.LocalPlayer.Backpack.Chariot:Destroy()
+game.Players.LocalPlayer.Backpack.StickyFingers:Destroy()
+game.Players.LocalPlayer.Backpack.CaesarHamon:Destroy()
+game.Players.LocalPlayer.Backpack.CreamStarter:Destroy()
+game.Players.LocalPlayer.Backpack.RollingStones:Destroy()
+game.Players.LocalPlayer.Backpack.WeatherReport:Destroy()
+game.Players.LocalPlayer.Backpack.PurpleHaze:Destroy()
+game.Players.LocalPlayer.Backpack.Ratt:Destroy()
+game.Players.LocalPlayer.Backpack.JosephHamon:Destroy()
+game.Players.LocalPlayer.Backpack.KillerQueen(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.Tusk1:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk2:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk3:Destroy()
+game.Players.LocalPlayer.Backpack.SymphonyOfDestruction:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(Prime):Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(OverHeaven):Destroy()
+game.Players.LocalPlayer.Backpack.MadeInHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.BlackSabbath:Destroy()
+game.Players.LocalPlayer.Backpack.Whitesnake:Destroy()
+game.Players.LocalPlayer.Backpack.SixPistols:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteAlbum:Destroy()
+game.Players.LocalPlayer.Backpack.Hamon:Destroy()
+game.Players.LocalPlayer.Backpack.UltimateLifeform:Destroy()
+game.Players.LocalPlayer.Backpack.Mandom:Destroy()
+game.Players.LocalPlayer.Backpack.TheEmperor:Destroy()
+game.Players.LocalPlayer.Backpack.MoodyBlues:Destroy()
+game.Players.LocalPlayer.Backpack.AtomeHeartFather:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimson:Destroy()
+game.Players.LocalPlayer.Backpack.Echoes:Destroy()
+game.Players.LocalPlayer.Backpack.TheSun:Destroy()
+game.Players.LocalPlayer.Backpack.Aerosmith:Destroy()
+game.Players.LocalPlayer.Backpack.BoyIIMan:Destroy()
+game.Players.LocalPlayer.Backpack.Harvest:Destroy()
+game.Players.LocalPlayer.Backpack.Kiss:Destroy()
+game.Players.LocalPlayer.Backpack.Rumble:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.HeavensDoor:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteWedding:Destroy()
+game.Players.LocalPlayer.Backpack.GuestPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.TheHand:Destroy()
+end)
+
+Sod.MouseButton1Click:connect(function()
+local a = game.ReplicatedStorage.Stands.SymphonyOfDestruction:clone()
+a.Parent = game.Players.LocalPlayer.Backpack
+game.Players.LocalPlayer.Backpack.Osiris:Destroy()
+game.Players.LocalPlayer.Backpack.D4C:Destroy()
+game.Players.LocalPlayer.Backpack.Vampire:Destroy()
+game.Players.LocalPlayer.Backpack.Kars:Destroy()
+game.Players.LocalPlayer.Backpack.None:Destroy()
+game.Players.LocalPlayer.Backpack.Wamuu:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimsonOverHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.Spin:Destroy()
+game.Players.LocalPlayer.Backpack.Mr.President:Destroy()
+game.Players.LocalPlayer.Backpack.SoftAndWet:Destroy()
+game.Players.LocalPlayer.Backpack.GoldExperience:Destroy()
+game.Players.LocalPlayer.Backpack.HermitPurple:Destroy()
+game.Players.LocalPlayer.Backpack.StoneFree:Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld:Destroy()
+game.Players.LocalPlayer.Backpack.Pillarman:Destroy()
+game.Players.LocalPlayer.Backpack.DiverDown:Destroy()
+game.Players.LocalPlayer.Backpack.HierophantGreen:Destroy()
+game.Players.LocalPlayer.Backpack.KillerGreen:Destroy()
+game.Players.LocalPlayer.Backpack.HeyYa:Destroy()
+game.Players.LocalPlayer.Backpack.BallBreaker:Destroy()
+game.Players.LocalPlayer.Backpack.ScaryMonsters:Destroy()
+game.Players.LocalPlayer.Backpack.Anubis:Destroy()
+game.Players.LocalPlayer.Backpack.MagiciansRed:Destroy()
+game.Players.LocalPlayer.Backpack.SpiceGirl:Destroy()
+game.Players.LocalPlayer.Backpack.Cream:Destroy()
+game.Players.LocalPlayer.Backpack.HighwayStar:Destroy()
+game.Players.LocalPlayer.Backpack.CrazyDiamond:Destroy()
+game.Players.LocalPlayer.Backpack.SilverChariot:Destroy()
+game.Players.LocalPlayer.Backpack.Shotgun:Destroy()
+game.Players.LocalPlayer.Backpack.BokuNoRhythmWoKiitekure:Destroy()
+game.Players.LocalPlayer.Backpack.SmashingPumpkin:Destroy()
+game.Players.LocalPlayer.Backpack.Cyborg:Destroy()
+game.Players.LocalPlayer.Backpack.Chariot:Destroy()
+game.Players.LocalPlayer.Backpack.StickyFingers:Destroy()
+game.Players.LocalPlayer.Backpack.CaesarHamon:Destroy()
+game.Players.LocalPlayer.Backpack.CreamStarter:Destroy()
+game.Players.LocalPlayer.Backpack.RollingStones:Destroy()
+game.Players.LocalPlayer.Backpack.WeatherReport:Destroy()
+game.Players.LocalPlayer.Backpack.PurpleHaze:Destroy()
+game.Players.LocalPlayer.Backpack.Ratt:Destroy()
+game.Players.LocalPlayer.Backpack.JosephHamon:Destroy()
+game.Players.LocalPlayer.Backpack.KillerQueen(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.Tusk1:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk2:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk3:Destroy()
+game.Players.LocalPlayer.Backpack.SymphonyOfDestruction:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(Prime):Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(OverHeaven):Destroy()
+game.Players.LocalPlayer.Backpack.MadeInHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.BlackSabbath:Destroy()
+game.Players.LocalPlayer.Backpack.Whitesnake:Destroy()
+game.Players.LocalPlayer.Backpack.SixPistols:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteAlbum:Destroy()
+game.Players.LocalPlayer.Backpack.Hamon:Destroy()
+game.Players.LocalPlayer.Backpack.UltimateLifeform:Destroy()
+game.Players.LocalPlayer.Backpack.Mandom:Destroy()
+game.Players.LocalPlayer.Backpack.TheEmperor:Destroy()
+game.Players.LocalPlayer.Backpack.MoodyBlues:Destroy()
+game.Players.LocalPlayer.Backpack.AtomeHeartFather:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimson:Destroy()
+game.Players.LocalPlayer.Backpack.Echoes:Destroy()
+game.Players.LocalPlayer.Backpack.TheSun:Destroy()
+game.Players.LocalPlayer.Backpack.Aerosmith:Destroy()
+game.Players.LocalPlayer.Backpack.BoyIIMan:Destroy()
+game.Players.LocalPlayer.Backpack.Harvest:Destroy()
+game.Players.LocalPlayer.Backpack.Kiss:Destroy()
+game.Players.LocalPlayer.Backpack.Rumble:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.HeavensDoor:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteWedding:Destroy()
+game.Players.LocalPlayer.Backpack.GuestPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.TheHand:Destroy()
+end)
+
+HighwayStar.MouseButton1Click:connect(function()
+local a = game.ReplicatedStorage.Stands.HighwayStar:clone()
+a.Parent = game.Players.LocalPlayer.Backpack
+game.Players.LocalPlayer.Backpack.Osiris:Destroy()
+game.Players.LocalPlayer.Backpack.D4C:Destroy()
+game.Players.LocalPlayer.Backpack.Vampire:Destroy()
+game.Players.LocalPlayer.Backpack.Kars:Destroy()
+game.Players.LocalPlayer.Backpack.None:Destroy()
+game.Players.LocalPlayer.Backpack.Wamuu:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimsonOverHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.Spin:Destroy()
+game.Players.LocalPlayer.Backpack.Mr.President:Destroy()
+game.Players.LocalPlayer.Backpack.SoftAndWet:Destroy()
+game.Players.LocalPlayer.Backpack.GoldExperience:Destroy()
+game.Players.LocalPlayer.Backpack.HermitPurple:Destroy()
+game.Players.LocalPlayer.Backpack.StoneFree:Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld:Destroy()
+game.Players.LocalPlayer.Backpack.Pillarman:Destroy()
+game.Players.LocalPlayer.Backpack.DiverDown:Destroy()
+game.Players.LocalPlayer.Backpack.HierophantGreen:Destroy()
+game.Players.LocalPlayer.Backpack.KillerGreen:Destroy()
+game.Players.LocalPlayer.Backpack.HeyYa:Destroy()
+game.Players.LocalPlayer.Backpack.BallBreaker:Destroy()
+game.Players.LocalPlayer.Backpack.ScaryMonsters:Destroy()
+game.Players.LocalPlayer.Backpack.Anubis:Destroy()
+game.Players.LocalPlayer.Backpack.MagiciansRed:Destroy()
+game.Players.LocalPlayer.Backpack.SpiceGirl:Destroy()
+game.Players.LocalPlayer.Backpack.Cream:Destroy()
+game.Players.LocalPlayer.Backpack.HighwayStar:Destroy()
+game.Players.LocalPlayer.Backpack.CrazyDiamond:Destroy()
+game.Players.LocalPlayer.Backpack.SilverChariot:Destroy()
+game.Players.LocalPlayer.Backpack.Shotgun:Destroy()
+game.Players.LocalPlayer.Backpack.BokuNoRhythmWoKiitekure:Destroy()
+game.Players.LocalPlayer.Backpack.SmashingPumpkin:Destroy()
+game.Players.LocalPlayer.Backpack.Cyborg:Destroy()
+game.Players.LocalPlayer.Backpack.Chariot:Destroy()
+game.Players.LocalPlayer.Backpack.StickyFingers:Destroy()
+game.Players.LocalPlayer.Backpack.CaesarHamon:Destroy()
+game.Players.LocalPlayer.Backpack.CreamStarter:Destroy()
+game.Players.LocalPlayer.Backpack.RollingStones:Destroy()
+game.Players.LocalPlayer.Backpack.WeatherReport:Destroy()
+game.Players.LocalPlayer.Backpack.PurpleHaze:Destroy()
+game.Players.LocalPlayer.Backpack.Ratt:Destroy()
+game.Players.LocalPlayer.Backpack.JosephHamon:Destroy()
+game.Players.LocalPlayer.Backpack.KillerQueen(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.Tusk1:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk2:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk3:Destroy()
+game.Players.LocalPlayer.Backpack.SymphonyOfDestruction:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(Prime):Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(OverHeaven):Destroy()
+game.Players.LocalPlayer.Backpack.MadeInHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.BlackSabbath:Destroy()
+game.Players.LocalPlayer.Backpack.Whitesnake:Destroy()
+game.Players.LocalPlayer.Backpack.SixPistols:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteAlbum:Destroy()
+game.Players.LocalPlayer.Backpack.Hamon:Destroy()
+game.Players.LocalPlayer.Backpack.UltimateLifeform:Destroy()
+game.Players.LocalPlayer.Backpack.Mandom:Destroy()
+game.Players.LocalPlayer.Backpack.TheEmperor:Destroy()
+game.Players.LocalPlayer.Backpack.MoodyBlues:Destroy()
+game.Players.LocalPlayer.Backpack.AtomeHeartFather:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimson:Destroy()
+game.Players.LocalPlayer.Backpack.Echoes:Destroy()
+game.Players.LocalPlayer.Backpack.TheSun:Destroy()
+game.Players.LocalPlayer.Backpack.Aerosmith:Destroy()
+game.Players.LocalPlayer.Backpack.BoyIIMan:Destroy()
+game.Players.LocalPlayer.Backpack.Harvest:Destroy()
+game.Players.LocalPlayer.Backpack.Kiss:Destroy()
+game.Players.LocalPlayer.Backpack.Rumble:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.HeavensDoor:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteWedding:Destroy()
+game.Players.LocalPlayer.Backpack.GuestPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.TheHand:Destroy()
+end)
+
+SSB.MouseButton1Click:connect(function()
+local a = game.ReplicatedStorage.Stands.Star-SpangledBanner:clone()
+a.Parent = game.Players.LocalPlayer.Backpack
+game.Players.LocalPlayer.Backpack.Osiris:Destroy()
+game.Players.LocalPlayer.Backpack.D4C:Destroy()
+game.Players.LocalPlayer.Backpack.Vampire:Destroy()
+game.Players.LocalPlayer.Backpack.Kars:Destroy()
+game.Players.LocalPlayer.Backpack.None:Destroy()
+game.Players.LocalPlayer.Backpack.Wamuu:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimsonOverHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.Spin:Destroy()
+game.Players.LocalPlayer.Backpack.Mr.President:Destroy()
+game.Players.LocalPlayer.Backpack.SoftAndWet:Destroy()
+game.Players.LocalPlayer.Backpack.GoldExperience:Destroy()
+game.Players.LocalPlayer.Backpack.HermitPurple:Destroy()
+game.Players.LocalPlayer.Backpack.StoneFree:Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld:Destroy()
+game.Players.LocalPlayer.Backpack.Pillarman:Destroy()
+game.Players.LocalPlayer.Backpack.DiverDown:Destroy()
+game.Players.LocalPlayer.Backpack.HierophantGreen:Destroy()
+game.Players.LocalPlayer.Backpack.KillerGreen:Destroy()
+game.Players.LocalPlayer.Backpack.HeyYa:Destroy()
+game.Players.LocalPlayer.Backpack.BallBreaker:Destroy()
+game.Players.LocalPlayer.Backpack.ScaryMonsters:Destroy()
+game.Players.LocalPlayer.Backpack.Anubis:Destroy()
+game.Players.LocalPlayer.Backpack.MagiciansRed:Destroy()
+game.Players.LocalPlayer.Backpack.SpiceGirl:Destroy()
+game.Players.LocalPlayer.Backpack.Cream:Destroy()
+game.Players.LocalPlayer.Backpack.HighwayStar:Destroy()
+game.Players.LocalPlayer.Backpack.CrazyDiamond:Destroy()
+game.Players.LocalPlayer.Backpack.SilverChariot:Destroy()
+game.Players.LocalPlayer.Backpack.Shotgun:Destroy()
+game.Players.LocalPlayer.Backpack.BokuNoRhythmWoKiitekure:Destroy()
+game.Players.LocalPlayer.Backpack.SmashingPumpkin:Destroy()
+game.Players.LocalPlayer.Backpack.Cyborg:Destroy()
+game.Players.LocalPlayer.Backpack.Chariot:Destroy()
+game.Players.LocalPlayer.Backpack.StickyFingers:Destroy()
+game.Players.LocalPlayer.Backpack.CaesarHamon:Destroy()
+game.Players.LocalPlayer.Backpack.CreamStarter:Destroy()
+game.Players.LocalPlayer.Backpack.RollingStones:Destroy()
+game.Players.LocalPlayer.Backpack.WeatherReport:Destroy()
+game.Players.LocalPlayer.Backpack.PurpleHaze:Destroy()
+game.Players.LocalPlayer.Backpack.Ratt:Destroy()
+game.Players.LocalPlayer.Backpack.JosephHamon:Destroy()
+game.Players.LocalPlayer.Backpack.KillerQueen(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.Tusk1:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk2:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk3:Destroy()
+game.Players.LocalPlayer.Backpack.SymphonyOfDestruction:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(Prime):Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(OverHeaven):Destroy()
+game.Players.LocalPlayer.Backpack.MadeInHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.BlackSabbath:Destroy()
+game.Players.LocalPlayer.Backpack.Whitesnake:Destroy()
+game.Players.LocalPlayer.Backpack.SixPistols:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteAlbum:Destroy()
+game.Players.LocalPlayer.Backpack.Hamon:Destroy()
+game.Players.LocalPlayer.Backpack.UltimateLifeform:Destroy()
+game.Players.LocalPlayer.Backpack.Mandom:Destroy()
+game.Players.LocalPlayer.Backpack.TheEmperor:Destroy()
+game.Players.LocalPlayer.Backpack.MoodyBlues:Destroy()
+game.Players.LocalPlayer.Backpack.AtomeHeartFather:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimson:Destroy()
+game.Players.LocalPlayer.Backpack.Echoes:Destroy()
+game.Players.LocalPlayer.Backpack.TheSun:Destroy()
+game.Players.LocalPlayer.Backpack.Aerosmith:Destroy()
+game.Players.LocalPlayer.Backpack.BoyIIMan:Destroy()
+game.Players.LocalPlayer.Backpack.Harvest:Destroy()
+game.Players.LocalPlayer.Backpack.Kiss:Destroy()
+game.Players.LocalPlayer.Backpack.Rumble:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.HeavensDoor:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteWedding:Destroy()
+game.Players.LocalPlayer.Backpack.GuestPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.TheHand:Destroy()
+end)
+
+SMP.MouseButton1Click:connect(function()
+local a = game.ReplicatedStorage.Stands.SmashingPumpkin:clone()
+a.Parent = game.Players.LocalPlayer.Backpack
+game.Players.LocalPlayer.Backpack.Osiris:Destroy()
+game.Players.LocalPlayer.Backpack.D4C:Destroy()
+game.Players.LocalPlayer.Backpack.Vampire:Destroy()
+game.Players.LocalPlayer.Backpack.Kars:Destroy()
+game.Players.LocalPlayer.Backpack.None:Destroy()
+game.Players.LocalPlayer.Backpack.Wamuu:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimsonOverHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.Spin:Destroy()
+game.Players.LocalPlayer.Backpack.Mr.President:Destroy()
+game.Players.LocalPlayer.Backpack.SoftAndWet:Destroy()
+game.Players.LocalPlayer.Backpack.GoldExperience:Destroy()
+game.Players.LocalPlayer.Backpack.HermitPurple:Destroy()
+game.Players.LocalPlayer.Backpack.StoneFree:Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld:Destroy()
+game.Players.LocalPlayer.Backpack.Pillarman:Destroy()
+game.Players.LocalPlayer.Backpack.DiverDown:Destroy()
+game.Players.LocalPlayer.Backpack.HierophantGreen:Destroy()
+game.Players.LocalPlayer.Backpack.KillerGreen:Destroy()
+game.Players.LocalPlayer.Backpack.HeyYa:Destroy()
+game.Players.LocalPlayer.Backpack.BallBreaker:Destroy()
+game.Players.LocalPlayer.Backpack.ScaryMonsters:Destroy()
+game.Players.LocalPlayer.Backpack.Anubis:Destroy()
+game.Players.LocalPlayer.Backpack.MagiciansRed:Destroy()
+game.Players.LocalPlayer.Backpack.SpiceGirl:Destroy()
+game.Players.LocalPlayer.Backpack.Cream:Destroy()
+game.Players.LocalPlayer.Backpack.HighwayStar:Destroy()
+game.Players.LocalPlayer.Backpack.CrazyDiamond:Destroy()
+game.Players.LocalPlayer.Backpack.SilverChariot:Destroy()
+game.Players.LocalPlayer.Backpack.Shotgun:Destroy()
+game.Players.LocalPlayer.Backpack.BokuNoRhythmWoKiitekure:Destroy()
+game.Players.LocalPlayer.Backpack.SmashingPumpkin:Destroy()
+game.Players.LocalPlayer.Backpack.Cyborg:Destroy()
+game.Players.LocalPlayer.Backpack.Chariot:Destroy()
+game.Players.LocalPlayer.Backpack.StickyFingers:Destroy()
+game.Players.LocalPlayer.Backpack.CaesarHamon:Destroy()
+game.Players.LocalPlayer.Backpack.CreamStarter:Destroy()
+game.Players.LocalPlayer.Backpack.RollingStones:Destroy()
+game.Players.LocalPlayer.Backpack.WeatherReport:Destroy()
+game.Players.LocalPlayer.Backpack.PurpleHaze:Destroy()
+game.Players.LocalPlayer.Backpack.Ratt:Destroy()
+game.Players.LocalPlayer.Backpack.JosephHamon:Destroy()
+game.Players.LocalPlayer.Backpack.KillerQueen(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.Tusk1:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk2:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk3:Destroy()
+game.Players.LocalPlayer.Backpack.SymphonyOfDestruction:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(Prime):Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(OverHeaven):Destroy()
+game.Players.LocalPlayer.Backpack.MadeInHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.BlackSabbath:Destroy()
+game.Players.LocalPlayer.Backpack.Whitesnake:Destroy()
+game.Players.LocalPlayer.Backpack.SixPistols:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteAlbum:Destroy()
+game.Players.LocalPlayer.Backpack.Hamon:Destroy()
+game.Players.LocalPlayer.Backpack.UltimateLifeform:Destroy()
+game.Players.LocalPlayer.Backpack.Mandom:Destroy()
+game.Players.LocalPlayer.Backpack.TheEmperor:Destroy()
+game.Players.LocalPlayer.Backpack.MoodyBlues:Destroy()
+game.Players.LocalPlayer.Backpack.AtomeHeartFather:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimson:Destroy()
+game.Players.LocalPlayer.Backpack.Echoes:Destroy()
+game.Players.LocalPlayer.Backpack.TheSun:Destroy()
+game.Players.LocalPlayer.Backpack.Aerosmith:Destroy()
+game.Players.LocalPlayer.Backpack.BoyIIMan:Destroy()
+game.Players.LocalPlayer.Backpack.Harvest:Destroy()
+game.Players.LocalPlayer.Backpack.Kiss:Destroy()
+game.Players.LocalPlayer.Backpack.Rumble:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.HeavensDoor:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteWedding:Destroy()
+game.Players.LocalPlayer.Backpack.GuestPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.TheHand:Destroy()
+end)
+
+StoneFree.MouseButton1Click:connect(function()
+local a = game.ReplicatedStorage.Stands.StoneFree:clone()
+a.Parent = game.Players.LocalPlayer.Backpack
+game.Players.LocalPlayer.Backpack.Osiris:Destroy()
+game.Players.LocalPlayer.Backpack.D4C:Destroy()
+game.Players.LocalPlayer.Backpack.Vampire:Destroy()
+game.Players.LocalPlayer.Backpack.Kars:Destroy()
+game.Players.LocalPlayer.Backpack.None:Destroy()
+game.Players.LocalPlayer.Backpack.Wamuu:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimsonOverHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.Spin:Destroy()
+game.Players.LocalPlayer.Backpack.Mr.President:Destroy()
+game.Players.LocalPlayer.Backpack.SoftAndWet:Destroy()
+game.Players.LocalPlayer.Backpack.GoldExperience:Destroy()
+game.Players.LocalPlayer.Backpack.HermitPurple:Destroy()
+game.Players.LocalPlayer.Backpack.StoneFree:Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld:Destroy()
+game.Players.LocalPlayer.Backpack.Pillarman:Destroy()
+game.Players.LocalPlayer.Backpack.DiverDown:Destroy()
+game.Players.LocalPlayer.Backpack.HierophantGreen:Destroy()
+game.Players.LocalPlayer.Backpack.KillerGreen:Destroy()
+game.Players.LocalPlayer.Backpack.HeyYa:Destroy()
+game.Players.LocalPlayer.Backpack.BallBreaker:Destroy()
+game.Players.LocalPlayer.Backpack.ScaryMonsters:Destroy()
+game.Players.LocalPlayer.Backpack.Anubis:Destroy()
+game.Players.LocalPlayer.Backpack.MagiciansRed:Destroy()
+game.Players.LocalPlayer.Backpack.SpiceGirl:Destroy()
+game.Players.LocalPlayer.Backpack.Cream:Destroy()
+game.Players.LocalPlayer.Backpack.HighwayStar:Destroy()
+game.Players.LocalPlayer.Backpack.CrazyDiamond:Destroy()
+game.Players.LocalPlayer.Backpack.SilverChariot:Destroy()
+game.Players.LocalPlayer.Backpack.Shotgun:Destroy()
+game.Players.LocalPlayer.Backpack.BokuNoRhythmWoKiitekure:Destroy()
+game.Players.LocalPlayer.Backpack.SmashingPumpkin:Destroy()
+game.Players.LocalPlayer.Backpack.Cyborg:Destroy()
+game.Players.LocalPlayer.Backpack.Chariot:Destroy()
+game.Players.LocalPlayer.Backpack.StickyFingers:Destroy()
+game.Players.LocalPlayer.Backpack.CaesarHamon:Destroy()
+game.Players.LocalPlayer.Backpack.CreamStarter:Destroy()
+game.Players.LocalPlayer.Backpack.RollingStones:Destroy()
+game.Players.LocalPlayer.Backpack.WeatherReport:Destroy()
+game.Players.LocalPlayer.Backpack.PurpleHaze:Destroy()
+game.Players.LocalPlayer.Backpack.Ratt:Destroy()
+game.Players.LocalPlayer.Backpack.JosephHamon:Destroy()
+game.Players.LocalPlayer.Backpack.KillerQueen(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.Tusk1:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk2:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk3:Destroy()
+game.Players.LocalPlayer.Backpack.SymphonyOfDestruction:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(Prime):Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(OverHeaven):Destroy()
+game.Players.LocalPlayer.Backpack.MadeInHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.BlackSabbath:Destroy()
+game.Players.LocalPlayer.Backpack.Whitesnake:Destroy()
+game.Players.LocalPlayer.Backpack.SixPistols:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteAlbum:Destroy()
+game.Players.LocalPlayer.Backpack.Hamon:Destroy()
+game.Players.LocalPlayer.Backpack.UltimateLifeform:Destroy()
+game.Players.LocalPlayer.Backpack.Mandom:Destroy()
+game.Players.LocalPlayer.Backpack.TheEmperor:Destroy()
+game.Players.LocalPlayer.Backpack.MoodyBlues:Destroy()
+game.Players.LocalPlayer.Backpack.AtomeHeartFather:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimson:Destroy()
+game.Players.LocalPlayer.Backpack.Echoes:Destroy()
+game.Players.LocalPlayer.Backpack.TheSun:Destroy()
+game.Players.LocalPlayer.Backpack.Aerosmith:Destroy()
+game.Players.LocalPlayer.Backpack.BoyIIMan:Destroy()
+game.Players.LocalPlayer.Backpack.Harvest:Destroy()
+game.Players.LocalPlayer.Backpack.Kiss:Destroy()
+game.Players.LocalPlayer.Backpack.Rumble:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.HeavensDoor:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteWedding:Destroy()
+game.Players.LocalPlayer.Backpack.GuestPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.TheHand:Destroy()
+end)
+
+WhiteWedding.MouseButton1Click:connect(function()
+local a = game.ReplicatedStorage.Stands.WhiteWedding:clone()
+a.Parent = game.Players.LocalPlayer.Backpack
+game.Players.LocalPlayer.Backpack.Osiris:Destroy()
+game.Players.LocalPlayer.Backpack.D4C:Destroy()
+game.Players.LocalPlayer.Backpack.Vampire:Destroy()
+game.Players.LocalPlayer.Backpack.Kars:Destroy()
+game.Players.LocalPlayer.Backpack.None:Destroy()
+game.Players.LocalPlayer.Backpack.Wamuu:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimsonOverHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.Spin:Destroy()
+game.Players.LocalPlayer.Backpack.Mr.President:Destroy()
+game.Players.LocalPlayer.Backpack.SoftAndWet:Destroy()
+game.Players.LocalPlayer.Backpack.GoldExperience:Destroy()
+game.Players.LocalPlayer.Backpack.HermitPurple:Destroy()
+game.Players.LocalPlayer.Backpack.StoneFree:Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld:Destroy()
+game.Players.LocalPlayer.Backpack.Pillarman:Destroy()
+game.Players.LocalPlayer.Backpack.DiverDown:Destroy()
+game.Players.LocalPlayer.Backpack.HierophantGreen:Destroy()
+game.Players.LocalPlayer.Backpack.KillerGreen:Destroy()
+game.Players.LocalPlayer.Backpack.HeyYa:Destroy()
+game.Players.LocalPlayer.Backpack.BallBreaker:Destroy()
+game.Players.LocalPlayer.Backpack.ScaryMonsters:Destroy()
+game.Players.LocalPlayer.Backpack.Anubis:Destroy()
+game.Players.LocalPlayer.Backpack.MagiciansRed:Destroy()
+game.Players.LocalPlayer.Backpack.SpiceGirl:Destroy()
+game.Players.LocalPlayer.Backpack.Cream:Destroy()
+game.Players.LocalPlayer.Backpack.HighwayStar:Destroy()
+game.Players.LocalPlayer.Backpack.CrazyDiamond:Destroy()
+game.Players.LocalPlayer.Backpack.SilverChariot:Destroy()
+game.Players.LocalPlayer.Backpack.Shotgun:Destroy()
+game.Players.LocalPlayer.Backpack.BokuNoRhythmWoKiitekure:Destroy()
+game.Players.LocalPlayer.Backpack.SmashingPumpkin:Destroy()
+game.Players.LocalPlayer.Backpack.Cyborg:Destroy()
+game.Players.LocalPlayer.Backpack.Chariot:Destroy()
+game.Players.LocalPlayer.Backpack.StickyFingers:Destroy()
+game.Players.LocalPlayer.Backpack.CaesarHamon:Destroy()
+game.Players.LocalPlayer.Backpack.CreamStarter:Destroy()
+game.Players.LocalPlayer.Backpack.RollingStones:Destroy()
+game.Players.LocalPlayer.Backpack.WeatherReport:Destroy()
+game.Players.LocalPlayer.Backpack.PurpleHaze:Destroy()
+game.Players.LocalPlayer.Backpack.Ratt:Destroy()
+game.Players.LocalPlayer.Backpack.JosephHamon:Destroy()
+game.Players.LocalPlayer.Backpack.KillerQueen(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.Tusk1:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk2:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk3:Destroy()
+game.Players.LocalPlayer.Backpack.SymphonyOfDestruction:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(Prime):Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(OverHeaven):Destroy()
+game.Players.LocalPlayer.Backpack.MadeInHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.BlackSabbath:Destroy()
+game.Players.LocalPlayer.Backpack.Whitesnake:Destroy()
+game.Players.LocalPlayer.Backpack.SixPistols:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteAlbum:Destroy()
+game.Players.LocalPlayer.Backpack.Hamon:Destroy()
+game.Players.LocalPlayer.Backpack.UltimateLifeform:Destroy()
+game.Players.LocalPlayer.Backpack.Mandom:Destroy()
+game.Players.LocalPlayer.Backpack.TheEmperor:Destroy()
+game.Players.LocalPlayer.Backpack.MoodyBlues:Destroy()
+game.Players.LocalPlayer.Backpack.AtomeHeartFather:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimson:Destroy()
+game.Players.LocalPlayer.Backpack.Echoes:Destroy()
+game.Players.LocalPlayer.Backpack.TheSun:Destroy()
+game.Players.LocalPlayer.Backpack.Aerosmith:Destroy()
+game.Players.LocalPlayer.Backpack.BoyIIMan:Destroy()
+game.Players.LocalPlayer.Backpack.Harvest:Destroy()
+game.Players.LocalPlayer.Backpack.Kiss:Destroy()
+game.Players.LocalPlayer.Backpack.Rumble:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.HeavensDoor:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteWedding:Destroy()
+game.Players.LocalPlayer.Backpack.GuestPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.TheHand:Destroy()
+end)
+
+WeatherReport.MouseButton1Click:connect(function()
+local a = game.ReplicatedStorage.Stands.WeatherReport:clone()
+a.Parent = game.Players.LocalPlayer.Backpack
+game.Players.LocalPlayer.Backpack.Osiris:Destroy()
+game.Players.LocalPlayer.Backpack.D4C:Destroy()
+game.Players.LocalPlayer.Backpack.Vampire:Destroy()
+game.Players.LocalPlayer.Backpack.Kars:Destroy()
+game.Players.LocalPlayer.Backpack.None:Destroy()
+game.Players.LocalPlayer.Backpack.Wamuu:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimsonOverHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.Spin:Destroy()
+game.Players.LocalPlayer.Backpack.Mr.President:Destroy()
+game.Players.LocalPlayer.Backpack.SoftAndWet:Destroy()
+game.Players.LocalPlayer.Backpack.GoldExperience:Destroy()
+game.Players.LocalPlayer.Backpack.HermitPurple:Destroy()
+game.Players.LocalPlayer.Backpack.StoneFree:Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld:Destroy()
+game.Players.LocalPlayer.Backpack.Pillarman:Destroy()
+game.Players.LocalPlayer.Backpack.DiverDown:Destroy()
+game.Players.LocalPlayer.Backpack.HierophantGreen:Destroy()
+game.Players.LocalPlayer.Backpack.KillerGreen:Destroy()
+game.Players.LocalPlayer.Backpack.HeyYa:Destroy()
+game.Players.LocalPlayer.Backpack.BallBreaker:Destroy()
+game.Players.LocalPlayer.Backpack.ScaryMonsters:Destroy()
+game.Players.LocalPlayer.Backpack.Anubis:Destroy()
+game.Players.LocalPlayer.Backpack.MagiciansRed:Destroy()
+game.Players.LocalPlayer.Backpack.SpiceGirl:Destroy()
+game.Players.LocalPlayer.Backpack.Cream:Destroy()
+game.Players.LocalPlayer.Backpack.HighwayStar:Destroy()
+game.Players.LocalPlayer.Backpack.CrazyDiamond:Destroy()
+game.Players.LocalPlayer.Backpack.SilverChariot:Destroy()
+game.Players.LocalPlayer.Backpack.Shotgun:Destroy()
+game.Players.LocalPlayer.Backpack.BokuNoRhythmWoKiitekure:Destroy()
+game.Players.LocalPlayer.Backpack.SmashingPumpkin:Destroy()
+game.Players.LocalPlayer.Backpack.Cyborg:Destroy()
+game.Players.LocalPlayer.Backpack.Chariot:Destroy()
+game.Players.LocalPlayer.Backpack.StickyFingers:Destroy()
+game.Players.LocalPlayer.Backpack.CaesarHamon:Destroy()
+game.Players.LocalPlayer.Backpack.CreamStarter:Destroy()
+game.Players.LocalPlayer.Backpack.RollingStones:Destroy()
+game.Players.LocalPlayer.Backpack.WeatherReport:Destroy()
+game.Players.LocalPlayer.Backpack.PurpleHaze:Destroy()
+game.Players.LocalPlayer.Backpack.Ratt:Destroy()
+game.Players.LocalPlayer.Backpack.JosephHamon:Destroy()
+game.Players.LocalPlayer.Backpack.KillerQueen(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.Tusk1:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk2:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk3:Destroy()
+game.Players.LocalPlayer.Backpack.SymphonyOfDestruction:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(Prime):Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(OverHeaven):Destroy()
+game.Players.LocalPlayer.Backpack.MadeInHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.BlackSabbath:Destroy()
+game.Players.LocalPlayer.Backpack.Whitesnake:Destroy()
+game.Players.LocalPlayer.Backpack.SixPistols:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteAlbum:Destroy()
+game.Players.LocalPlayer.Backpack.Hamon:Destroy()
+game.Players.LocalPlayer.Backpack.UltimateLifeform:Destroy()
+game.Players.LocalPlayer.Backpack.Mandom:Destroy()
+game.Players.LocalPlayer.Backpack.TheEmperor:Destroy()
+game.Players.LocalPlayer.Backpack.MoodyBlues:Destroy()
+game.Players.LocalPlayer.Backpack.AtomeHeartFather:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimson:Destroy()
+game.Players.LocalPlayer.Backpack.Echoes:Destroy()
+game.Players.LocalPlayer.Backpack.TheSun:Destroy()
+game.Players.LocalPlayer.Backpack.Aerosmith:Destroy()
+game.Players.LocalPlayer.Backpack.BoyIIMan:Destroy()
+game.Players.LocalPlayer.Backpack.Harvest:Destroy()
+game.Players.LocalPlayer.Backpack.Kiss:Destroy()
+game.Players.LocalPlayer.Backpack.Rumble:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.HeavensDoor:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteWedding:Destroy()
+game.Players.LocalPlayer.Backpack.GuestPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.TheHand:Destroy()
+end)
+
+MIH.MouseButton1Click:connect(function()
+local a = game.ReplicatedStorage.Stands.MadeInHeaven:clone()
+a.Parent = game.Players.LocalPlayer.Backpack
+game.Players.LocalPlayer.Backpack.Osiris:Destroy()
+game.Players.LocalPlayer.Backpack.D4C:Destroy()
+game.Players.LocalPlayer.Backpack.Vampire:Destroy()
+game.Players.LocalPlayer.Backpack.Kars:Destroy()
+game.Players.LocalPlayer.Backpack.None:Destroy()
+game.Players.LocalPlayer.Backpack.Wamuu:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimsonOverHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.Spin:Destroy()
+game.Players.LocalPlayer.Backpack.Mr.President:Destroy()
+game.Players.LocalPlayer.Backpack.SoftAndWet:Destroy()
+game.Players.LocalPlayer.Backpack.GoldExperience:Destroy()
+game.Players.LocalPlayer.Backpack.HermitPurple:Destroy()
+game.Players.LocalPlayer.Backpack.StoneFree:Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld:Destroy()
+game.Players.LocalPlayer.Backpack.Pillarman:Destroy()
+game.Players.LocalPlayer.Backpack.DiverDown:Destroy()
+game.Players.LocalPlayer.Backpack.HierophantGreen:Destroy()
+game.Players.LocalPlayer.Backpack.KillerGreen:Destroy()
+game.Players.LocalPlayer.Backpack.HeyYa:Destroy()
+game.Players.LocalPlayer.Backpack.BallBreaker:Destroy()
+game.Players.LocalPlayer.Backpack.ScaryMonsters:Destroy()
+game.Players.LocalPlayer.Backpack.Anubis:Destroy()
+game.Players.LocalPlayer.Backpack.MagiciansRed:Destroy()
+game.Players.LocalPlayer.Backpack.SpiceGirl:Destroy()
+game.Players.LocalPlayer.Backpack.Cream:Destroy()
+game.Players.LocalPlayer.Backpack.HighwayStar:Destroy()
+game.Players.LocalPlayer.Backpack.CrazyDiamond:Destroy()
+game.Players.LocalPlayer.Backpack.SilverChariot:Destroy()
+game.Players.LocalPlayer.Backpack.Shotgun:Destroy()
+game.Players.LocalPlayer.Backpack.BokuNoRhythmWoKiitekure:Destroy()
+game.Players.LocalPlayer.Backpack.SmashingPumpkin:Destroy()
+game.Players.LocalPlayer.Backpack.Cyborg:Destroy()
+game.Players.LocalPlayer.Backpack.Chariot:Destroy()
+game.Players.LocalPlayer.Backpack.StickyFingers:Destroy()
+game.Players.LocalPlayer.Backpack.CaesarHamon:Destroy()
+game.Players.LocalPlayer.Backpack.CreamStarter:Destroy()
+game.Players.LocalPlayer.Backpack.RollingStones:Destroy()
+game.Players.LocalPlayer.Backpack.WeatherReport:Destroy()
+game.Players.LocalPlayer.Backpack.PurpleHaze:Destroy()
+game.Players.LocalPlayer.Backpack.Ratt:Destroy()
+game.Players.LocalPlayer.Backpack.JosephHamon:Destroy()
+game.Players.LocalPlayer.Backpack.KillerQueen(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.Tusk1:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk2:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk3:Destroy()
+game.Players.LocalPlayer.Backpack.SymphonyOfDestruction:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(Prime):Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(OverHeaven):Destroy()
+game.Players.LocalPlayer.Backpack.MadeInHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.BlackSabbath:Destroy()
+game.Players.LocalPlayer.Backpack.Whitesnake:Destroy()
+game.Players.LocalPlayer.Backpack.SixPistols:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteAlbum:Destroy()
+game.Players.LocalPlayer.Backpack.Hamon:Destroy()
+game.Players.LocalPlayer.Backpack.UltimateLifeform:Destroy()
+game.Players.LocalPlayer.Backpack.Mandom:Destroy()
+game.Players.LocalPlayer.Backpack.TheEmperor:Destroy()
+game.Players.LocalPlayer.Backpack.MoodyBlues:Destroy()
+game.Players.LocalPlayer.Backpack.AtomeHeartFather:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimson:Destroy()
+game.Players.LocalPlayer.Backpack.Echoes:Destroy()
+game.Players.LocalPlayer.Backpack.TheSun:Destroy()
+game.Players.LocalPlayer.Backpack.Aerosmith:Destroy()
+game.Players.LocalPlayer.Backpack.BoyIIMan:Destroy()
+game.Players.LocalPlayer.Backpack.Harvest:Destroy()
+game.Players.LocalPlayer.Backpack.Kiss:Destroy()
+game.Players.LocalPlayer.Backpack.Rumble:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.HeavensDoor:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteWedding:Destroy()
+game.Players.LocalPlayer.Backpack.GuestPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.TheHand:Destroy()
+end)
+
+BallBreaker.MouseButton1Click:connect(function()
+local a = game.ReplicatedStorage.Stands.BallBreaker:clone()
+a.Parent = game.Players.LocalPlayer.Backpack
+game.Players.LocalPlayer.Backpack.Osiris:Destroy()
+game.Players.LocalPlayer.Backpack.D4C:Destroy()
+game.Players.LocalPlayer.Backpack.Vampire:Destroy()
+game.Players.LocalPlayer.Backpack.Kars:Destroy()
+game.Players.LocalPlayer.Backpack.None:Destroy()
+game.Players.LocalPlayer.Backpack.Wamuu:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimsonOverHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.Spin:Destroy()
+game.Players.LocalPlayer.Backpack.Mr.President:Destroy()
+game.Players.LocalPlayer.Backpack.SoftAndWet:Destroy()
+game.Players.LocalPlayer.Backpack.GoldExperience:Destroy()
+game.Players.LocalPlayer.Backpack.HermitPurple:Destroy()
+game.Players.LocalPlayer.Backpack.StoneFree:Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld:Destroy()
+game.Players.LocalPlayer.Backpack.Pillarman:Destroy()
+game.Players.LocalPlayer.Backpack.DiverDown:Destroy()
+game.Players.LocalPlayer.Backpack.HierophantGreen:Destroy()
+game.Players.LocalPlayer.Backpack.KillerGreen:Destroy()
+game.Players.LocalPlayer.Backpack.HeyYa:Destroy()
+game.Players.LocalPlayer.Backpack.BallBreaker:Destroy()
+game.Players.LocalPlayer.Backpack.ScaryMonsters:Destroy()
+game.Players.LocalPlayer.Backpack.Anubis:Destroy()
+game.Players.LocalPlayer.Backpack.MagiciansRed:Destroy()
+game.Players.LocalPlayer.Backpack.SpiceGirl:Destroy()
+game.Players.LocalPlayer.Backpack.Cream:Destroy()
+game.Players.LocalPlayer.Backpack.HighwayStar:Destroy()
+game.Players.LocalPlayer.Backpack.CrazyDiamond:Destroy()
+game.Players.LocalPlayer.Backpack.SilverChariot:Destroy()
+game.Players.LocalPlayer.Backpack.Shotgun:Destroy()
+game.Players.LocalPlayer.Backpack.BokuNoRhythmWoKiitekure:Destroy()
+game.Players.LocalPlayer.Backpack.SmashingPumpkin:Destroy()
+game.Players.LocalPlayer.Backpack.Cyborg:Destroy()
+game.Players.LocalPlayer.Backpack.Chariot:Destroy()
+game.Players.LocalPlayer.Backpack.StickyFingers:Destroy()
+game.Players.LocalPlayer.Backpack.CaesarHamon:Destroy()
+game.Players.LocalPlayer.Backpack.CreamStarter:Destroy()
+game.Players.LocalPlayer.Backpack.RollingStones:Destroy()
+game.Players.LocalPlayer.Backpack.WeatherReport:Destroy()
+game.Players.LocalPlayer.Backpack.PurpleHaze:Destroy()
+game.Players.LocalPlayer.Backpack.Ratt:Destroy()
+game.Players.LocalPlayer.Backpack.JosephHamon:Destroy()
+game.Players.LocalPlayer.Backpack.KillerQueen(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.Tusk1:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk2:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk3:Destroy()
+game.Players.LocalPlayer.Backpack.SymphonyOfDestruction:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(Prime):Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(OverHeaven):Destroy()
+game.Players.LocalPlayer.Backpack.MadeInHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.BlackSabbath:Destroy()
+game.Players.LocalPlayer.Backpack.Whitesnake:Destroy()
+game.Players.LocalPlayer.Backpack.SixPistols:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteAlbum:Destroy()
+game.Players.LocalPlayer.Backpack.Hamon:Destroy()
+game.Players.LocalPlayer.Backpack.UltimateLifeform:Destroy()
+game.Players.LocalPlayer.Backpack.Mandom:Destroy()
+game.Players.LocalPlayer.Backpack.TheEmperor:Destroy()
+game.Players.LocalPlayer.Backpack.MoodyBlues:Destroy()
+game.Players.LocalPlayer.Backpack.AtomeHeartFather:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimson:Destroy()
+game.Players.LocalPlayer.Backpack.Echoes:Destroy()
+game.Players.LocalPlayer.Backpack.TheSun:Destroy()
+game.Players.LocalPlayer.Backpack.Aerosmith:Destroy()
+game.Players.LocalPlayer.Backpack.BoyIIMan:Destroy()
+game.Players.LocalPlayer.Backpack.Harvest:Destroy()
+game.Players.LocalPlayer.Backpack.Kiss:Destroy()
+game.Players.LocalPlayer.Backpack.Rumble:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.HeavensDoor:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteWedding:Destroy()
+game.Players.LocalPlayer.Backpack.GuestPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.TheHand:Destroy()
+end)
+
+MoodyBlues.MouseButton1Click:connect(function()
+local a = game.ReplicatedStorage.Stands.MoodyBlues:clone()
+a.Parent = game.Players.LocalPlayer.Backpack
+game.Players.LocalPlayer.Backpack.Osiris:Destroy()
+game.Players.LocalPlayer.Backpack.D4C:Destroy()
+game.Players.LocalPlayer.Backpack.Vampire:Destroy()
+game.Players.LocalPlayer.Backpack.Kars:Destroy()
+game.Players.LocalPlayer.Backpack.None:Destroy()
+game.Players.LocalPlayer.Backpack.Wamuu:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimsonOverHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.Spin:Destroy()
+game.Players.LocalPlayer.Backpack.Mr.President:Destroy()
+game.Players.LocalPlayer.Backpack.SoftAndWet:Destroy()
+game.Players.LocalPlayer.Backpack.GoldExperience:Destroy()
+game.Players.LocalPlayer.Backpack.HermitPurple:Destroy()
+game.Players.LocalPlayer.Backpack.StoneFree:Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld:Destroy()
+game.Players.LocalPlayer.Backpack.Pillarman:Destroy()
+game.Players.LocalPlayer.Backpack.DiverDown:Destroy()
+game.Players.LocalPlayer.Backpack.HierophantGreen:Destroy()
+game.Players.LocalPlayer.Backpack.KillerGreen:Destroy()
+game.Players.LocalPlayer.Backpack.HeyYa:Destroy()
+game.Players.LocalPlayer.Backpack.BallBreaker:Destroy()
+game.Players.LocalPlayer.Backpack.ScaryMonsters:Destroy()
+game.Players.LocalPlayer.Backpack.Anubis:Destroy()
+game.Players.LocalPlayer.Backpack.MagiciansRed:Destroy()
+game.Players.LocalPlayer.Backpack.SpiceGirl:Destroy()
+game.Players.LocalPlayer.Backpack.Cream:Destroy()
+game.Players.LocalPlayer.Backpack.HighwayStar:Destroy()
+game.Players.LocalPlayer.Backpack.CrazyDiamond:Destroy()
+game.Players.LocalPlayer.Backpack.SilverChariot:Destroy()
+game.Players.LocalPlayer.Backpack.Shotgun:Destroy()
+game.Players.LocalPlayer.Backpack.BokuNoRhythmWoKiitekure:Destroy()
+game.Players.LocalPlayer.Backpack.SmashingPumpkin:Destroy()
+game.Players.LocalPlayer.Backpack.Cyborg:Destroy()
+game.Players.LocalPlayer.Backpack.Chariot:Destroy()
+game.Players.LocalPlayer.Backpack.StickyFingers:Destroy()
+game.Players.LocalPlayer.Backpack.CaesarHamon:Destroy()
+game.Players.LocalPlayer.Backpack.CreamStarter:Destroy()
+game.Players.LocalPlayer.Backpack.RollingStones:Destroy()
+game.Players.LocalPlayer.Backpack.WeatherReport:Destroy()
+game.Players.LocalPlayer.Backpack.PurpleHaze:Destroy()
+game.Players.LocalPlayer.Backpack.Ratt:Destroy()
+game.Players.LocalPlayer.Backpack.JosephHamon:Destroy()
+game.Players.LocalPlayer.Backpack.KillerQueen(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.Tusk1:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk2:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk3:Destroy()
+game.Players.LocalPlayer.Backpack.SymphonyOfDestruction:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(Prime):Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(OverHeaven):Destroy()
+game.Players.LocalPlayer.Backpack.MadeInHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.BlackSabbath:Destroy()
+game.Players.LocalPlayer.Backpack.Whitesnake:Destroy()
+game.Players.LocalPlayer.Backpack.SixPistols:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteAlbum:Destroy()
+game.Players.LocalPlayer.Backpack.Hamon:Destroy()
+game.Players.LocalPlayer.Backpack.UltimateLifeform:Destroy()
+game.Players.LocalPlayer.Backpack.Mandom:Destroy()
+game.Players.LocalPlayer.Backpack.TheEmperor:Destroy()
+game.Players.LocalPlayer.Backpack.MoodyBlues:Destroy()
+game.Players.LocalPlayer.Backpack.AtomeHeartFather:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimson:Destroy()
+game.Players.LocalPlayer.Backpack.Echoes:Destroy()
+game.Players.LocalPlayer.Backpack.TheSun:Destroy()
+game.Players.LocalPlayer.Backpack.Aerosmith:Destroy()
+game.Players.LocalPlayer.Backpack.BoyIIMan:Destroy()
+game.Players.LocalPlayer.Backpack.Harvest:Destroy()
+game.Players.LocalPlayer.Backpack.Kiss:Destroy()
+game.Players.LocalPlayer.Backpack.Rumble:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.HeavensDoor:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteWedding:Destroy()
+game.Players.LocalPlayer.Backpack.GuestPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.TheHand:Destroy()
+end)
+
+MrPresident.MouseButton1Click:connect(function()
+local a = game.ReplicatedStorage.Stands.Mr.President:clone()
+a.Parent = game.Players.LocalPlayer.Backpack
+game.Players.LocalPlayer.Backpack.Osiris:Destroy()
+game.Players.LocalPlayer.Backpack.D4C:Destroy()
+game.Players.LocalPlayer.Backpack.Vampire:Destroy()
+game.Players.LocalPlayer.Backpack.Kars:Destroy()
+game.Players.LocalPlayer.Backpack.None:Destroy()
+game.Players.LocalPlayer.Backpack.Wamuu:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimsonOverHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.Spin:Destroy()
+game.Players.LocalPlayer.Backpack.Mr.President:Destroy()
+game.Players.LocalPlayer.Backpack.SoftAndWet:Destroy()
+game.Players.LocalPlayer.Backpack.GoldExperience:Destroy()
+game.Players.LocalPlayer.Backpack.HermitPurple:Destroy()
+game.Players.LocalPlayer.Backpack.StoneFree:Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld:Destroy()
+game.Players.LocalPlayer.Backpack.Pillarman:Destroy()
+game.Players.LocalPlayer.Backpack.DiverDown:Destroy()
+game.Players.LocalPlayer.Backpack.HierophantGreen:Destroy()
+game.Players.LocalPlayer.Backpack.KillerGreen:Destroy()
+game.Players.LocalPlayer.Backpack.HeyYa:Destroy()
+game.Players.LocalPlayer.Backpack.BallBreaker:Destroy()
+game.Players.LocalPlayer.Backpack.ScaryMonsters:Destroy()
+game.Players.LocalPlayer.Backpack.Anubis:Destroy()
+game.Players.LocalPlayer.Backpack.MagiciansRed:Destroy()
+game.Players.LocalPlayer.Backpack.SpiceGirl:Destroy()
+game.Players.LocalPlayer.Backpack.Cream:Destroy()
+game.Players.LocalPlayer.Backpack.HighwayStar:Destroy()
+game.Players.LocalPlayer.Backpack.CrazyDiamond:Destroy()
+game.Players.LocalPlayer.Backpack.SilverChariot:Destroy()
+game.Players.LocalPlayer.Backpack.Shotgun:Destroy()
+game.Players.LocalPlayer.Backpack.BokuNoRhythmWoKiitekure:Destroy()
+game.Players.LocalPlayer.Backpack.SmashingPumpkin:Destroy()
+game.Players.LocalPlayer.Backpack.Cyborg:Destroy()
+game.Players.LocalPlayer.Backpack.Chariot:Destroy()
+game.Players.LocalPlayer.Backpack.StickyFingers:Destroy()
+game.Players.LocalPlayer.Backpack.CaesarHamon:Destroy()
+game.Players.LocalPlayer.Backpack.CreamStarter:Destroy()
+game.Players.LocalPlayer.Backpack.RollingStones:Destroy()
+game.Players.LocalPlayer.Backpack.WeatherReport:Destroy()
+game.Players.LocalPlayer.Backpack.PurpleHaze:Destroy()
+game.Players.LocalPlayer.Backpack.Ratt:Destroy()
+game.Players.LocalPlayer.Backpack.JosephHamon:Destroy()
+game.Players.LocalPlayer.Backpack.KillerQueen(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.Tusk1:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk2:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk3:Destroy()
+game.Players.LocalPlayer.Backpack.SymphonyOfDestruction:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(Prime):Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(OverHeaven):Destroy()
+game.Players.LocalPlayer.Backpack.MadeInHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.BlackSabbath:Destroy()
+game.Players.LocalPlayer.Backpack.Whitesnake:Destroy()
+game.Players.LocalPlayer.Backpack.SixPistols:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteAlbum:Destroy()
+game.Players.LocalPlayer.Backpack.Hamon:Destroy()
+game.Players.LocalPlayer.Backpack.UltimateLifeform:Destroy()
+game.Players.LocalPlayer.Backpack.Mandom:Destroy()
+game.Players.LocalPlayer.Backpack.TheEmperor:Destroy()
+game.Players.LocalPlayer.Backpack.MoodyBlues:Destroy()
+game.Players.LocalPlayer.Backpack.AtomeHeartFather:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimson:Destroy()
+game.Players.LocalPlayer.Backpack.Echoes:Destroy()
+game.Players.LocalPlayer.Backpack.TheSun:Destroy()
+game.Players.LocalPlayer.Backpack.Aerosmith:Destroy()
+game.Players.LocalPlayer.Backpack.BoyIIMan:Destroy()
+game.Players.LocalPlayer.Backpack.Harvest:Destroy()
+game.Players.LocalPlayer.Backpack.Kiss:Destroy()
+game.Players.LocalPlayer.Backpack.Rumble:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.HeavensDoor:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteWedding:Destroy()
+game.Players.LocalPlayer.Backpack.GuestPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.TheHand:Destroy()
+end)
+
+PillarMan.MouseButton1Click:connect(function()
+local a = game.ReplicatedStorage.Stands.Pillarman:clone()
+a.Parent = game.Players.LocalPlayer.Backpack
+game.Players.LocalPlayer.Backpack.Osiris:Destroy()
+game.Players.LocalPlayer.Backpack.D4C:Destroy()
+game.Players.LocalPlayer.Backpack.Vampire:Destroy()
+game.Players.LocalPlayer.Backpack.Kars:Destroy()
+game.Players.LocalPlayer.Backpack.None:Destroy()
+game.Players.LocalPlayer.Backpack.Wamuu:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimsonOverHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.Spin:Destroy()
+game.Players.LocalPlayer.Backpack.Mr.President:Destroy()
+game.Players.LocalPlayer.Backpack.SoftAndWet:Destroy()
+game.Players.LocalPlayer.Backpack.GoldExperience:Destroy()
+game.Players.LocalPlayer.Backpack.HermitPurple:Destroy()
+game.Players.LocalPlayer.Backpack.StoneFree:Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld:Destroy()
+game.Players.LocalPlayer.Backpack.Pillarman:Destroy()
+game.Players.LocalPlayer.Backpack.DiverDown:Destroy()
+game.Players.LocalPlayer.Backpack.HierophantGreen:Destroy()
+game.Players.LocalPlayer.Backpack.KillerGreen:Destroy()
+game.Players.LocalPlayer.Backpack.HeyYa:Destroy()
+game.Players.LocalPlayer.Backpack.BallBreaker:Destroy()
+game.Players.LocalPlayer.Backpack.ScaryMonsters:Destroy()
+game.Players.LocalPlayer.Backpack.Anubis:Destroy()
+game.Players.LocalPlayer.Backpack.MagiciansRed:Destroy()
+game.Players.LocalPlayer.Backpack.SpiceGirl:Destroy()
+game.Players.LocalPlayer.Backpack.Cream:Destroy()
+game.Players.LocalPlayer.Backpack.HighwayStar:Destroy()
+game.Players.LocalPlayer.Backpack.CrazyDiamond:Destroy()
+game.Players.LocalPlayer.Backpack.SilverChariot:Destroy()
+game.Players.LocalPlayer.Backpack.Shotgun:Destroy()
+game.Players.LocalPlayer.Backpack.BokuNoRhythmWoKiitekure:Destroy()
+game.Players.LocalPlayer.Backpack.SmashingPumpkin:Destroy()
+game.Players.LocalPlayer.Backpack.Cyborg:Destroy()
+game.Players.LocalPlayer.Backpack.Chariot:Destroy()
+game.Players.LocalPlayer.Backpack.StickyFingers:Destroy()
+game.Players.LocalPlayer.Backpack.CaesarHamon:Destroy()
+game.Players.LocalPlayer.Backpack.CreamStarter:Destroy()
+game.Players.LocalPlayer.Backpack.RollingStones:Destroy()
+game.Players.LocalPlayer.Backpack.WeatherReport:Destroy()
+game.Players.LocalPlayer.Backpack.PurpleHaze:Destroy()
+game.Players.LocalPlayer.Backpack.Ratt:Destroy()
+game.Players.LocalPlayer.Backpack.JosephHamon:Destroy()
+game.Players.LocalPlayer.Backpack.KillerQueen(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.Tusk1:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk2:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk3:Destroy()
+game.Players.LocalPlayer.Backpack.SymphonyOfDestruction:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(Prime):Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(OverHeaven):Destroy()
+game.Players.LocalPlayer.Backpack.MadeInHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.BlackSabbath:Destroy()
+game.Players.LocalPlayer.Backpack.Whitesnake:Destroy()
+game.Players.LocalPlayer.Backpack.SixPistols:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteAlbum:Destroy()
+game.Players.LocalPlayer.Backpack.Hamon:Destroy()
+game.Players.LocalPlayer.Backpack.UltimateLifeform:Destroy()
+game.Players.LocalPlayer.Backpack.Mandom:Destroy()
+game.Players.LocalPlayer.Backpack.TheEmperor:Destroy()
+game.Players.LocalPlayer.Backpack.MoodyBlues:Destroy()
+game.Players.LocalPlayer.Backpack.AtomeHeartFather:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimson:Destroy()
+game.Players.LocalPlayer.Backpack.Echoes:Destroy()
+game.Players.LocalPlayer.Backpack.TheSun:Destroy()
+game.Players.LocalPlayer.Backpack.Aerosmith:Destroy()
+game.Players.LocalPlayer.Backpack.BoyIIMan:Destroy()
+game.Players.LocalPlayer.Backpack.Harvest:Destroy()
+game.Players.LocalPlayer.Backpack.Kiss:Destroy()
+game.Players.LocalPlayer.Backpack.Rumble:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.HeavensDoor:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteWedding:Destroy()
+game.Players.LocalPlayer.Backpack.GuestPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.TheHand:Destroy()
+end)
+
+Osiris.MouseButton1Click:connect(function()
+local a = game.ReplicatedStorage.Stands.Osiris:clone()
+a.Parent = game.Players.LocalPlayer.Backpack
+game.Players.LocalPlayer.Backpack.Osiris:Destroy()
+game.Players.LocalPlayer.Backpack.D4C:Destroy()
+game.Players.LocalPlayer.Backpack.Vampire:Destroy()
+game.Players.LocalPlayer.Backpack.Kars:Destroy()
+game.Players.LocalPlayer.Backpack.None:Destroy()
+game.Players.LocalPlayer.Backpack.Wamuu:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimsonOverHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.Spin:Destroy()
+game.Players.LocalPlayer.Backpack.Mr.President:Destroy()
+game.Players.LocalPlayer.Backpack.SoftAndWet:Destroy()
+game.Players.LocalPlayer.Backpack.GoldExperience:Destroy()
+game.Players.LocalPlayer.Backpack.HermitPurple:Destroy()
+game.Players.LocalPlayer.Backpack.StoneFree:Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld:Destroy()
+game.Players.LocalPlayer.Backpack.Pillarman:Destroy()
+game.Players.LocalPlayer.Backpack.DiverDown:Destroy()
+game.Players.LocalPlayer.Backpack.HierophantGreen:Destroy()
+game.Players.LocalPlayer.Backpack.KillerGreen:Destroy()
+game.Players.LocalPlayer.Backpack.HeyYa:Destroy()
+game.Players.LocalPlayer.Backpack.BallBreaker:Destroy()
+game.Players.LocalPlayer.Backpack.ScaryMonsters:Destroy()
+game.Players.LocalPlayer.Backpack.Anubis:Destroy()
+game.Players.LocalPlayer.Backpack.MagiciansRed:Destroy()
+game.Players.LocalPlayer.Backpack.SpiceGirl:Destroy()
+game.Players.LocalPlayer.Backpack.Cream:Destroy()
+game.Players.LocalPlayer.Backpack.HighwayStar:Destroy()
+game.Players.LocalPlayer.Backpack.CrazyDiamond:Destroy()
+game.Players.LocalPlayer.Backpack.SilverChariot:Destroy()
+game.Players.LocalPlayer.Backpack.Shotgun:Destroy()
+game.Players.LocalPlayer.Backpack.BokuNoRhythmWoKiitekure:Destroy()
+game.Players.LocalPlayer.Backpack.SmashingPumpkin:Destroy()
+game.Players.LocalPlayer.Backpack.Cyborg:Destroy()
+game.Players.LocalPlayer.Backpack.Chariot:Destroy()
+game.Players.LocalPlayer.Backpack.StickyFingers:Destroy()
+game.Players.LocalPlayer.Backpack.CaesarHamon:Destroy()
+game.Players.LocalPlayer.Backpack.CreamStarter:Destroy()
+game.Players.LocalPlayer.Backpack.RollingStones:Destroy()
+game.Players.LocalPlayer.Backpack.WeatherReport:Destroy()
+game.Players.LocalPlayer.Backpack.PurpleHaze:Destroy()
+game.Players.LocalPlayer.Backpack.Ratt:Destroy()
+game.Players.LocalPlayer.Backpack.JosephHamon:Destroy()
+game.Players.LocalPlayer.Backpack.KillerQueen(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.Tusk1:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk2:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk3:Destroy()
+game.Players.LocalPlayer.Backpack.SymphonyOfDestruction:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(Prime):Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(OverHeaven):Destroy()
+game.Players.LocalPlayer.Backpack.MadeInHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.BlackSabbath:Destroy()
+game.Players.LocalPlayer.Backpack.Whitesnake:Destroy()
+game.Players.LocalPlayer.Backpack.SixPistols:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteAlbum:Destroy()
+game.Players.LocalPlayer.Backpack.Hamon:Destroy()
+game.Players.LocalPlayer.Backpack.UltimateLifeform:Destroy()
+game.Players.LocalPlayer.Backpack.Mandom:Destroy()
+game.Players.LocalPlayer.Backpack.TheEmperor:Destroy()
+game.Players.LocalPlayer.Backpack.MoodyBlues:Destroy()
+game.Players.LocalPlayer.Backpack.AtomeHeartFather:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimson:Destroy()
+game.Players.LocalPlayer.Backpack.Echoes:Destroy()
+game.Players.LocalPlayer.Backpack.TheSun:Destroy()
+game.Players.LocalPlayer.Backpack.Aerosmith:Destroy()
+game.Players.LocalPlayer.Backpack.BoyIIMan:Destroy()
+game.Players.LocalPlayer.Backpack.Harvest:Destroy()
+game.Players.LocalPlayer.Backpack.Kiss:Destroy()
+game.Players.LocalPlayer.Backpack.Rumble:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.HeavensDoor:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteWedding:Destroy()
+game.Players.LocalPlayer.Backpack.GuestPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.TheHand:Destroy()
+end)
+
+Vampire.MouseButton1Click:connect(function()
+local a = game.ReplicatedStorage.Stands.Vampire:clone()
+a.Parent = game.Players.LocalPlayer.Backpack
+game.Players.LocalPlayer.Backpack.Osiris:Destroy()
+game.Players.LocalPlayer.Backpack.D4C:Destroy()
+game.Players.LocalPlayer.Backpack.Vampire:Destroy()
+game.Players.LocalPlayer.Backpack.Kars:Destroy()
+game.Players.LocalPlayer.Backpack.None:Destroy()
+game.Players.LocalPlayer.Backpack.Wamuu:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimsonOverHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.Spin:Destroy()
+game.Players.LocalPlayer.Backpack.Mr.President:Destroy()
+game.Players.LocalPlayer.Backpack.SoftAndWet:Destroy()
+game.Players.LocalPlayer.Backpack.GoldExperience:Destroy()
+game.Players.LocalPlayer.Backpack.HermitPurple:Destroy()
+game.Players.LocalPlayer.Backpack.StoneFree:Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld:Destroy()
+game.Players.LocalPlayer.Backpack.Pillarman:Destroy()
+game.Players.LocalPlayer.Backpack.DiverDown:Destroy()
+game.Players.LocalPlayer.Backpack.HierophantGreen:Destroy()
+game.Players.LocalPlayer.Backpack.KillerGreen:Destroy()
+game.Players.LocalPlayer.Backpack.HeyYa:Destroy()
+game.Players.LocalPlayer.Backpack.BallBreaker:Destroy()
+game.Players.LocalPlayer.Backpack.ScaryMonsters:Destroy()
+game.Players.LocalPlayer.Backpack.Anubis:Destroy()
+game.Players.LocalPlayer.Backpack.MagiciansRed:Destroy()
+game.Players.LocalPlayer.Backpack.SpiceGirl:Destroy()
+game.Players.LocalPlayer.Backpack.Cream:Destroy()
+game.Players.LocalPlayer.Backpack.HighwayStar:Destroy()
+game.Players.LocalPlayer.Backpack.CrazyDiamond:Destroy()
+game.Players.LocalPlayer.Backpack.SilverChariot:Destroy()
+game.Players.LocalPlayer.Backpack.Shotgun:Destroy()
+game.Players.LocalPlayer.Backpack.BokuNoRhythmWoKiitekure:Destroy()
+game.Players.LocalPlayer.Backpack.SmashingPumpkin:Destroy()
+game.Players.LocalPlayer.Backpack.Cyborg:Destroy()
+game.Players.LocalPlayer.Backpack.Chariot:Destroy()
+game.Players.LocalPlayer.Backpack.StickyFingers:Destroy()
+game.Players.LocalPlayer.Backpack.CaesarHamon:Destroy()
+game.Players.LocalPlayer.Backpack.CreamStarter:Destroy()
+game.Players.LocalPlayer.Backpack.RollingStones:Destroy()
+game.Players.LocalPlayer.Backpack.WeatherReport:Destroy()
+game.Players.LocalPlayer.Backpack.PurpleHaze:Destroy()
+game.Players.LocalPlayer.Backpack.Ratt:Destroy()
+game.Players.LocalPlayer.Backpack.JosephHamon:Destroy()
+game.Players.LocalPlayer.Backpack.KillerQueen(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.TheWorld(AlternateUniverse):Destroy()
+game.Players.LocalPlayer.Backpack.Tusk1:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk2:Destroy()
+game.Players.LocalPlayer.Backpack.Tusk3:Destroy()
+game.Players.LocalPlayer.Backpack.SymphonyOfDestruction:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(Prime):Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum(OverHeaven):Destroy()
+game.Players.LocalPlayer.Backpack.MadeInHeaven:Destroy()
+game.Players.LocalPlayer.Backpack.BlackSabbath:Destroy()
+game.Players.LocalPlayer.Backpack.Whitesnake:Destroy()
+game.Players.LocalPlayer.Backpack.SixPistols:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteAlbum:Destroy()
+game.Players.LocalPlayer.Backpack.Hamon:Destroy()
+game.Players.LocalPlayer.Backpack.UltimateLifeform:Destroy()
+game.Players.LocalPlayer.Backpack.Mandom:Destroy()
+game.Players.LocalPlayer.Backpack.TheEmperor:Destroy()
+game.Players.LocalPlayer.Backpack.MoodyBlues:Destroy()
+game.Players.LocalPlayer.Backpack.AtomeHeartFather:Destroy()
+game.Players.LocalPlayer.Backpack.KingCrimson:Destroy()
+game.Players.LocalPlayer.Backpack.Echoes:Destroy()
+game.Players.LocalPlayer.Backpack.TheSun:Destroy()
+game.Players.LocalPlayer.Backpack.Aerosmith:Destroy()
+game.Players.LocalPlayer.Backpack.BoyIIMan:Destroy()
+game.Players.LocalPlayer.Backpack.Harvest:Destroy()
+game.Players.LocalPlayer.Backpack.Kiss:Destroy()
+game.Players.LocalPlayer.Backpack.Rumble:Destroy()
+game.Players.LocalPlayer.Backpack.StarPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.HeavensDoor:Destroy()
+game.Players.LocalPlayer.Backpack.WhiteWedding:Destroy()
+game.Players.LocalPlayer.Backpack.GuestPlatinum:Destroy()
+game.Players.LocalPlayer.Backpack.TheHand:Destroy()
+end)
+
+TripAll.MouseButton1Click:connect(function()
+local poop = game.Players.LocalPlayer.Name
+for i,v in pairs(game.Players:GetChildren()) do
+local target = game:GetService("Players")[v.Name].Character:GetPrimaryPartCFrame().Position
+local A_1 = 0
+local A_2 = game:GetService("Workspace")[poop].Head.Container.Stand["Right Arm"]
+local A_3 = CFrame.new(target)
+local A_4 = 0.1
+local A_5 = game:GetService("Workspace")[poop].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.bubbleevent:FireServer(A_1, A_2, A_3, A_4, A_5)
+game:GetService("ReplicatedStorage").Specials.bubbleevent:FireServer(A_1, A_2, A_3, A_4, A_5)
+game:GetService("ReplicatedStorage").Specials.bubbleevent:FireServer(A_1, A_2, A_3, A_4, A_5)
+end
+end)
+
+
+TripTarget.MouseButton1Click:connect(function()
+
+local poop = game.Players.LocalPlayer.Name
+local target = game:GetService("Players")[Name.Text].Character:GetPrimaryPartCFrame().Position
+local A_1 = 0
+local A_2 = game:GetService("Workspace")[poop].Head.Container.Stand["Right Arm"]
+local A_3 = CFrame.new(target)
+local A_4 = 0.1
+local A_5 = game:GetService("Workspace")[poop].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.bubbleevent:FireServer(A_1, A_2, A_3, A_4, A_5)
+game:GetService("ReplicatedStorage").Specials.bubbleevent:FireServer(A_1, A_2, A_3, A_4, A_5)
+game:GetService("ReplicatedStorage").Specials.bubbleevent:FireServer(A_1, A_2, A_3, A_4, A_5)
+game:GetService("ReplicatedStorage").Specials.bubbleevent:FireServer(A_1, A_2, A_3, A_4, A_5)
+game:GetService("ReplicatedStorage").Specials.bubbleevent:FireServer(A_1, A_2, A_3, A_4, A_5)
+end)
+
+
+BlindTarget.MouseButton1Click:connect(function()
+local poop = game.Players.LocalPlayer.Name
+local target = game:GetService("Players")[Name.Text].Character:GetPrimaryPartCFrame().Position
+local A_1 = 1
+local A_2 = game:GetService("Workspace")[poop].Head.Container.Stand["Right Arm"]
+local A_3 = CFrame.new(target)
+local A_4 = 0.1
+local A_5 = game:GetService("Workspace")[poop].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.bubbleevent:FireServer(A_1, A_2, A_3, A_4, A_5)
+end)
+
+BlindAll.MouseButton1Click:connect(function()
+local poop = game.Players.LocalPlayer.Name
+for i,v in pairs(game.Players:GetChildren()) do
+local target = game:GetService("Players")[v.Name].Character:GetPrimaryPartCFrame().Position
+local A_1 = 1
+local A_2 = game:GetService("Workspace")[poop].Head.Container.Stand["Right Arm"]
+local A_3 = CFrame.new(target)
+local A_4 = 0.1
+local A_5 = game:GetService("Workspace")[poop].Torso.voiceline
+game:GetService("ReplicatedStorage").Specials.bubbleevent:FireServer(A_1, A_2, A_3, A_4, A_5)
+end
+end)
+
+FloatTarget.MouseButton1Click:connect(function()
+local poop = game.Players.LocalPlayer.Name
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+for i,v in pairs(game.Players:GetChildren()) do
+local target = game:GetService("Players")[Name.Text].Character:GetPrimaryPartCFrame().Position
+local A_2 = game:GetService("Workspace")[poop].Head.Container.Stand["Right Arm"]
+local A_3 = CFrame.new(target)
+local A_4 = 0.1
+local A_5 = 5.1
+local A_6 = game:GetService("Workspace")[poop].Torso.voiceline
+local A_7 = false
+local A_8 = false
+game:GetService("ReplicatedStorage").Specials.bubbletrap:FireServer(A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Specials.bubbletrap:FireServer(A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Specials.bubbletrap:FireServer(A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+end
+end)
+
+FloatAll.MouseButton1Click:connect(function()
+local poop = game.Players.LocalPlayer.Name
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+for i,v in pairs(game.Players:GetChildren()) do
+local target = game:GetService("Players")[v.Name].Character:GetPrimaryPartCFrame().Position
+local A_2 = game:GetService("Workspace")[poop].Head.Container.Stand["Right Arm"]
+local A_3 = CFrame.new(target)
+local A_4 = 0.1
+local A_5 = 5.1
+local A_6 = game:GetService("Workspace")[poop].Torso.voiceline
+local A_7 = false
+local A_8 = false
+game:GetService("ReplicatedStorage").Specials.bubbletrap:FireServer(A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Specials.bubbletrap:FireServer(A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+game:GetService("ReplicatedStorage").Specials.bubbletrap:FireServer(A_2, A_3, A_4, A_5, A_6, A_7, A_8)
+end
+end)
+
+
+
+Creeper.MouseButton1Click:connect(function()
+function position(limb, pos, angle)
+Torso = game.Players.LocalPlayer.Character.Torso
+limb:BreakJoints()
+local bodypos = Instance.new("BodyPosition", limb)
+bodypos.MaxForce = Vector3.new(math.huge,math.huge,math.huge)
+spawn(function()
+repeat
+limb.Orientation = Torso.Orientation + angle
+bodypos.Position = Torso.Position + (Torso.CFrame.LookVector * pos.Z) + (Torso.CFrame.RightVector * pos.X) + Vector3.new(0, pos.Y, 0)
+bodypos.Parent.Position = bodypos.Position
+wait()
+until game.Players.LocalPlayer.Character.Humanoid.Health <= 0
+end)
+end 
+position(game.Players.LocalPlayer.Character["Right Arm"], Vector3.new(0.5, -2, 1), Vector3.new(0,0,0))
+position(game.Players.LocalPlayer.Character["Left Arm"], Vector3.new(-0.5, -2, 1), Vector3.new(0,0,0))
+position(game.Players.LocalPlayer.Character["Right Leg"], Vector3.new(0.5, -2, -1), Vector3.new(0,0,0))
+position(game.Players.LocalPlayer.Character["Left Leg"], Vector3.new(-0.5, -2, -1), Vector3.new(0,0,0)) 
+end)
+
+
+CustomStand.MouseButton1Click:connect(function()
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+bindy = "y"
+mouse.KeyDown:connect(function(key)
+if key == bindy then
+    
+for i,v in pairs(game.Players:GetChildren()) do
+if v.Name ~= player.Name then
+local A_1 = 21
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 80085
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+if (v.Character.HumanoidRootPart.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude < 30 then
+local A_6 = game:GetService("Workspace")[v.Name].Humanoid
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+end
+end
+end
+end)
+
+Creeper.MouseButton1Click:connect(function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 60
+end)
+end)
+
+
+CustomStand.MouseButton1Click:connect(function()
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+bindy = "y"
+mouse.KeyDown:connect(function(key)
+if key == bindy then
+    
+for i,v in pairs(game.Players:GetChildren()) do
+if v.Name ~= player.Name then
+local A_1 = 104
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 80085
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+if (v.Character.HumanoidRootPart.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude < 30 then
+local A_6 = game:GetService("Workspace")[v.Name].Humanoid
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+end
+end
+end
+end)
+
+
+Creeper.MouseButton1Click:connect(function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 60
+end)
+end)
+
+
+CustomStand.MouseButton1Click:connect(function()
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+bindh = "h"
+mouse.KeyDown:connect(function(key)
+if key == bindh then
+    
+for i,v in pairs(game.Players:GetChildren()) do
+if v.Name ~= player.Name then
+local A_1 = 89
+local A_2 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local A_3 = CFrame.new(nil,nil,nil)
+local A_4 = 80085
+local A_5 = game.Players.LocalPlayer.Character.Torso.voiceline
+
+local A_7 = false
+local Event = game:GetService("ReplicatedStorage").Logic.hitbox
+if (v.Character.HumanoidRootPart.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude < 30 then
+local A_6 = game:GetService("Workspace")[v.Name].Humanoid
+Event:InvokeServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+end
+end
+end
+end
+end)
+
+Creeper.MouseButton1Click:connect(function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 60
+end)
+end)
+
+
+
+Creeper.MouseButton1Click:connect(function()
+local poop = game.Players.LocalPlayer.Name
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+binde = "p"
+mouse.KeyDown:connect(function(key)
+if key == binde then
+for i,v in pairs(game.Players:GetChildren()) do
+local A_1 = game:GetService("Workspace")[v.Name]["Left Arm"]
+local A_2 = 8000085
+local A_3 = game:GetService("Workspace")[poop].Torso.voiceline
+local A_4 = game:GetService("Workspace")[v.Name].Humanoid
+local A_5 = false
+local A_6 = false
+local A_7 = false
+ if (v.Character.HumanoidRootPart.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude < 100 then
+    local explosion = Instance.new("Explosion")
+    explosion.Parent = v.Character.HumanoidRootPart.Parent
+game:GetService("ReplicatedStorage").Specials.explosionevent:FireServer(A_1, A_2, A_3, A_4, A_5)
+end
+end
+end
+end)
+
+Creeper.MouseButton1Click:connect(function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 60
+end)
+end)
